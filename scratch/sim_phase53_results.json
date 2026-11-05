@@ -1,0 +1,1836 @@
+[
+  {
+    "symbol": "RELIANCE",
+    "companyName": "Reliance Industries Limited",
+    "sector": "INDUSTRIAL",
+    "instrumentType": "EQUITY",
+    "dataSource": "DEMO",
+    "ltp": 2950.4,
+    "atr14": 75.5,
+    "supportPool": [
+      {
+        "type": "Swing Low Pivot",
+        "price": 2943.24,
+        "zoneMin": 2943.24,
+        "zoneMax": 2943.24,
+        "touchCount": 1,
+        "ageDays": 3,
+        "volumeRatio": 0.86,
+        "isOverhead": false
+      }
+    ],
+    "resistancePool": [
+      {
+        "type": "Reaction Cluster (2 touches)",
+        "price": 3059.31,
+        "zoneMin": 3035.79,
+        "zoneMax": 3082.82,
+        "touchCount": 2,
+        "ageDays": 41,
+        "volumeRatio": 1.06,
+        "isOverhead": true
+      },
+      {
+        "type": "Reaction Cluster (3 touches)",
+        "price": 3108.24,
+        "zoneMin": 3099.43,
+        "zoneMax": 3114.48,
+        "touchCount": 3,
+        "ageDays": 124,
+        "volumeRatio": 1.18,
+        "isOverhead": true
+      },
+      {
+        "type": "Reaction Cluster (2 touches)",
+        "price": 3208.81,
+        "zoneMin": 3205.78,
+        "zoneMax": 3211.84,
+        "touchCount": 2,
+        "ageDays": 209,
+        "volumeRatio": 1.15,
+        "isOverhead": true
+      },
+      {
+        "type": "50-DMA",
+        "price": 3271.19,
+        "zoneMin": 3256.09,
+        "zoneMax": 3286.29,
+        "touchCount": 1,
+        "ageDays": 0,
+        "volumeRatio": 1,
+        "isOverhead": true
+      },
+      {
+        "type": "100-DMA",
+        "price": 3365.23,
+        "zoneMin": 3350.13,
+        "zoneMax": 3380.33,
+        "touchCount": 1,
+        "ageDays": 0,
+        "volumeRatio": 1,
+        "isOverhead": true
+      },
+      {
+        "type": "200-EMA",
+        "price": 3419.51,
+        "zoneMin": 3400.63,
+        "zoneMax": 3438.39,
+        "touchCount": 1,
+        "ageDays": 0,
+        "volumeRatio": 1,
+        "isOverhead": true
+      },
+      {
+        "type": "52-Week High Ceiling",
+        "price": 3976.05,
+        "zoneMin": 3953.39,
+        "zoneMax": 3976.05,
+        "touchCount": 1,
+        "ageDays": 0,
+        "volumeRatio": 1,
+        "isOverhead": true
+      }
+    ],
+    "e1": {
+      "price": 2893.77,
+      "zone": [
+        2874.89,
+        2893.77
+      ],
+      "type": "Volatility Fallback (0.75 ATR)",
+      "classification": "MATHEMATICAL / VOLATILITY FALLBACK"
+    },
+    "e2": null,
+    "e3": null,
+    "sl": {
+      "price": 2837.15,
+      "type": "Below E1 Structure - 0.5 ATR (Anti-Compression Floor Enforced)",
+      "buffer": 37.75,
+      "distancePct": -3.84,
+      "classification": "ANTI-COMPRESSION FLOOR"
+    },
+    "t1": {
+      "price": 3059.31,
+      "zone": [
+        3035.79,
+        3082.82
+      ],
+      "type": "Reaction Cluster (2 touches)",
+      "classification": "STRUCTURALLY SUPPORTED"
+    },
+    "t2": {
+      "price": 3208.81,
+      "zone": [
+        3205.78,
+        3211.84
+      ],
+      "type": "Reaction Cluster (2 touches)",
+      "classification": "STRUCTURALLY SUPPORTED"
+    },
+    "t3": {
+      "price": 3365.23,
+      "zone": [
+        3350.13,
+        3380.33
+      ],
+      "type": "100-DMA",
+      "classification": "STRUCTURALLY SUPPORTED"
+    },
+    "orderingValid": true,
+    "orderingLog": [],
+    "prodStop": 2837.15,
+    "prodTarget": 3186.43,
+    "prodMaxEntry": 2953.58
+  },
+  {
+    "symbol": "TCS",
+    "companyName": "Tata Consultancy Services Limited",
+    "sector": "INDUSTRIAL",
+    "instrumentType": "EQUITY",
+    "dataSource": "DEMO",
+    "ltp": 4120,
+    "atr14": 110.4,
+    "supportPool": [
+      {
+        "type": "52-Week Low Floor",
+        "price": 4085.63,
+        "zoneMin": 4085.63,
+        "zoneMax": 4118.75,
+        "touchCount": 1,
+        "ageDays": 0,
+        "volumeRatio": 1,
+        "isOverhead": false
+      }
+    ],
+    "resistancePool": [
+      {
+        "type": "Swing Low Pivot",
+        "price": 4253.79,
+        "zoneMin": 4253.79,
+        "zoneMax": 4253.79,
+        "touchCount": 1,
+        "ageDays": 41,
+        "volumeRatio": 0.84,
+        "isOverhead": true
+      },
+      {
+        "type": "Swing Low Pivot",
+        "price": 4532.28,
+        "zoneMin": 4532.28,
+        "zoneMax": 4532.28,
+        "touchCount": 1,
+        "ageDays": 84,
+        "volumeRatio": 1,
+        "isOverhead": true
+      },
+      {
+        "type": "50-DMA",
+        "price": 4605.04,
+        "zoneMin": 4582.96,
+        "zoneMax": 4627.12,
+        "touchCount": 1,
+        "ageDays": 0,
+        "volumeRatio": 1,
+        "isOverhead": true
+      },
+      {
+        "type": "Swing Low Pivot",
+        "price": 4800.46,
+        "zoneMin": 4800.46,
+        "zoneMax": 4800.46,
+        "touchCount": 1,
+        "ageDays": 125,
+        "volumeRatio": 0.88,
+        "isOverhead": true
+      },
+      {
+        "type": "Swing Low Pivot",
+        "price": 5107.71,
+        "zoneMin": 5107.71,
+        "zoneMax": 5107.71,
+        "touchCount": 1,
+        "ageDays": 167,
+        "volumeRatio": 0.79,
+        "isOverhead": true
+      },
+      {
+        "type": "Swing Low Pivot",
+        "price": 5240.15,
+        "zoneMin": 5240.15,
+        "zoneMax": 5240.15,
+        "touchCount": 1,
+        "ageDays": 207,
+        "volumeRatio": 0.91,
+        "isOverhead": true
+      },
+      {
+        "type": "Swing Low Pivot",
+        "price": 5521.97,
+        "zoneMin": 5521.97,
+        "zoneMax": 5521.97,
+        "touchCount": 1,
+        "ageDays": 249,
+        "volumeRatio": 1.02,
+        "isOverhead": true
+      },
+      {
+        "type": "52-Week High Ceiling",
+        "price": 6542.23,
+        "zoneMin": 6509.11,
+        "zoneMax": 6542.23,
+        "touchCount": 1,
+        "ageDays": 0,
+        "volumeRatio": 1,
+        "isOverhead": true
+      }
+    ],
+    "e1": {
+      "price": 4085.63,
+      "zone": [
+        4085.63,
+        4118.75
+      ],
+      "type": "52-Week Low Floor",
+      "classification": "STRUCTURALLY SUPPORTED"
+    },
+    "e2": null,
+    "e3": null,
+    "sl": {
+      "price": 3954.4,
+      "type": "Below E1 Structure - 0.5 ATR (Anti-Compression Floor Enforced)",
+      "buffer": 55.2,
+      "distancePct": -4.02,
+      "classification": "ANTI-COMPRESSION FLOOR"
+    },
+    "t1": {
+      "price": 4253.79,
+      "zone": [
+        4253.79,
+        4253.79
+      ],
+      "type": "Swing Low Pivot",
+      "classification": "STRUCTURALLY SUPPORTED"
+    },
+    "t2": {
+      "price": 4532.28,
+      "zone": [
+        4532.28,
+        4532.28
+      ],
+      "type": "Swing Low Pivot",
+      "classification": "STRUCTURALLY SUPPORTED"
+    },
+    "t3": {
+      "price": 4800.46,
+      "zone": [
+        4800.46,
+        4800.46
+      ],
+      "type": "Swing Low Pivot",
+      "classification": "STRUCTURALLY SUPPORTED"
+    },
+    "orderingValid": true,
+    "orderingLog": [],
+    "prodStop": 3954.4,
+    "prodTarget": 4451.21,
+    "prodMaxEntry": 4120
+  },
+  {
+    "symbol": "HDFCBANK",
+    "companyName": "HDFC Bank Limited",
+    "sector": "COMMERCIAL_BANK",
+    "instrumentType": "BANK",
+    "dataSource": "DEMO",
+    "ltp": 1680,
+    "atr14": 43.57,
+    "supportPool": [
+      {
+        "type": "52-Week Low Floor",
+        "price": 1672.15,
+        "zoneMin": 1672.15,
+        "zoneMax": 1685.22,
+        "touchCount": 1,
+        "ageDays": 0,
+        "volumeRatio": 1,
+        "isOverhead": false
+      }
+    ],
+    "resistancePool": [
+      {
+        "type": "Swing Low Pivot",
+        "price": 1745.71,
+        "zoneMin": 1745.71,
+        "zoneMax": 1745.71,
+        "touchCount": 1,
+        "ageDays": 44,
+        "volumeRatio": 0.99,
+        "isOverhead": true
+      },
+      {
+        "type": "Reaction Cluster (2 touches)",
+        "price": 1818.97,
+        "zoneMin": 1816.9,
+        "zoneMax": 1821.03,
+        "touchCount": 2,
+        "ageDays": 81,
+        "volumeRatio": 0.84,
+        "isOverhead": true
+      },
+      {
+        "type": "50-DMA",
+        "price": 1881.6,
+        "zoneMin": 1872.88,
+        "zoneMax": 1890.31,
+        "touchCount": 1,
+        "ageDays": 0,
+        "volumeRatio": 1,
+        "isOverhead": true
+      },
+      {
+        "type": "Reaction Cluster (3 touches)",
+        "price": 1915.8,
+        "zoneMin": 1905.06,
+        "zoneMax": 1935.72,
+        "touchCount": 3,
+        "ageDays": 127,
+        "volumeRatio": 0.91,
+        "isOverhead": true
+      },
+      {
+        "type": "100-DMA",
+        "price": 1951.56,
+        "zoneMin": 1942.84,
+        "zoneMax": 1960.27,
+        "touchCount": 1,
+        "ageDays": 0,
+        "volumeRatio": 1,
+        "isOverhead": true
+      },
+      {
+        "type": "Reaction Cluster (2 touches)",
+        "price": 1976.89,
+        "zoneMin": 1973.32,
+        "zoneMax": 1980.46,
+        "touchCount": 2,
+        "ageDays": 251,
+        "volumeRatio": 0.97,
+        "isOverhead": true
+      },
+      {
+        "type": "200-EMA",
+        "price": 2017.45,
+        "zoneMin": 2006.56,
+        "zoneMax": 2028.35,
+        "touchCount": 1,
+        "ageDays": 0,
+        "volumeRatio": 1,
+        "isOverhead": true
+      },
+      {
+        "type": "52-Week High Ceiling",
+        "price": 2380.23,
+        "zoneMin": 2367.16,
+        "zoneMax": 2380.23,
+        "touchCount": 1,
+        "ageDays": 0,
+        "volumeRatio": 1,
+        "isOverhead": true
+      }
+    ],
+    "e1": {
+      "price": 1647.32,
+      "zone": [
+        1636.43,
+        1647.32
+      ],
+      "type": "Volatility Fallback (0.75 ATR)",
+      "classification": "MATHEMATICAL / VOLATILITY FALLBACK"
+    },
+    "e2": null,
+    "e3": null,
+    "sl": {
+      "price": 1614.64,
+      "type": "Below E1 Structure - 0.5 ATR (Anti-Compression Floor Enforced)",
+      "buffer": 21.79,
+      "distancePct": -3.89,
+      "classification": "ANTI-COMPRESSION FLOOR"
+    },
+    "t1": {
+      "price": 1745.71,
+      "zone": [
+        1745.71,
+        1745.71
+      ],
+      "type": "Swing Low Pivot",
+      "classification": "STRUCTURALLY SUPPORTED"
+    },
+    "t2": {
+      "price": 1818.97,
+      "zone": [
+        1816.9,
+        1821.03
+      ],
+      "type": "Reaction Cluster (2 touches)",
+      "classification": "STRUCTURALLY SUPPORTED"
+    },
+    "t3": {
+      "price": 1915.8,
+      "zone": [
+        1905.06,
+        1935.72
+      ],
+      "type": "Reaction Cluster (3 touches)",
+      "classification": "STRUCTURALLY SUPPORTED"
+    },
+    "orderingValid": true,
+    "orderingLog": [],
+    "prodStop": 1614.64,
+    "prodTarget": 1814.4,
+    "prodMaxEntry": 1681.23
+  },
+  {
+    "symbol": "BAJFINANCE",
+    "companyName": "Bajaj Finance Limited",
+    "sector": "COMMERCIAL_BANK",
+    "instrumentType": "BANK",
+    "dataSource": "DEMO",
+    "ltp": 7240,
+    "atr14": 208.42,
+    "supportPool": [
+      {
+        "type": "52-Week Low Floor",
+        "price": 7225.11,
+        "zoneMin": 7225.11,
+        "zoneMax": 7287.63,
+        "touchCount": 1,
+        "ageDays": 0,
+        "volumeRatio": 1,
+        "isOverhead": false
+      }
+    ],
+    "resistancePool": [
+      {
+        "type": "Swing Low Pivot",
+        "price": 7600.83,
+        "zoneMin": 7600.83,
+        "zoneMax": 7600.83,
+        "touchCount": 1,
+        "ageDays": 42,
+        "volumeRatio": 0.96,
+        "isOverhead": true
+      },
+      {
+        "type": "Swing Low Pivot",
+        "price": 7777.79,
+        "zoneMin": 7777.79,
+        "zoneMax": 7777.79,
+        "touchCount": 1,
+        "ageDays": 85,
+        "volumeRatio": 0.83,
+        "isOverhead": true
+      },
+      {
+        "type": "Swing Low Pivot",
+        "price": 8113.43,
+        "zoneMin": 8113.43,
+        "zoneMax": 8113.43,
+        "touchCount": 1,
+        "ageDays": 125,
+        "volumeRatio": 1.22,
+        "isOverhead": true
+      },
+      {
+        "type": "50-DMA",
+        "price": 8279.89,
+        "zoneMin": 8238.21,
+        "zoneMax": 8321.58,
+        "touchCount": 1,
+        "ageDays": 0,
+        "volumeRatio": 1,
+        "isOverhead": true
+      },
+      {
+        "type": "Swing Low Pivot",
+        "price": 8475.36,
+        "zoneMin": 8475.36,
+        "zoneMax": 8475.36,
+        "touchCount": 1,
+        "ageDays": 166,
+        "volumeRatio": 0.8,
+        "isOverhead": true
+      },
+      {
+        "type": "200-EMA",
+        "price": 9059.8,
+        "zoneMin": 9007.7,
+        "zoneMax": 9111.9,
+        "touchCount": 1,
+        "ageDays": 0,
+        "volumeRatio": 1,
+        "isOverhead": true
+      },
+      {
+        "type": "Reaction Cluster (2 touches)",
+        "price": 10024.61,
+        "zoneMin": 10010.93,
+        "zoneMax": 10038.3,
+        "touchCount": 2,
+        "ageDays": 249,
+        "volumeRatio": 1.03,
+        "isOverhead": true
+      },
+      {
+        "type": "52-Week High Ceiling",
+        "price": 12226.94,
+        "zoneMin": 12164.42,
+        "zoneMax": 12226.94,
+        "touchCount": 1,
+        "ageDays": 0,
+        "volumeRatio": 1,
+        "isOverhead": true
+      }
+    ],
+    "e1": {
+      "price": 7083.69,
+      "zone": [
+        7031.59,
+        7083.69
+      ],
+      "type": "Volatility Fallback (0.75 ATR)",
+      "classification": "MATHEMATICAL / VOLATILITY FALLBACK"
+    },
+    "e2": null,
+    "e3": null,
+    "sl": {
+      "price": 6927.37,
+      "type": "Below E1 Structure - 0.5 ATR (Anti-Compression Floor Enforced)",
+      "buffer": 104.21,
+      "distancePct": -4.32,
+      "classification": "ANTI-COMPRESSION FLOOR"
+    },
+    "t1": {
+      "price": 7600.83,
+      "zone": [
+        7600.83,
+        7600.83
+      ],
+      "type": "Swing Low Pivot",
+      "classification": "STRUCTURALLY SUPPORTED"
+    },
+    "t2": {
+      "price": 8113.43,
+      "zone": [
+        8113.43,
+        8113.43
+      ],
+      "type": "Swing Low Pivot",
+      "classification": "STRUCTURALLY SUPPORTED"
+    },
+    "t3": {
+      "price": 8475.36,
+      "zone": [
+        8475.36,
+        8475.36
+      ],
+      "type": "Swing Low Pivot",
+      "classification": "STRUCTURALLY SUPPORTED"
+    },
+    "orderingValid": true,
+    "orderingLog": [],
+    "prodStop": 6927.37,
+    "prodTarget": 7865.26,
+    "prodMaxEntry": 7240
+  },
+  {
+    "symbol": "FINCABLES",
+    "companyName": "Finolex Cables Limited",
+    "sector": "INDUSTRIAL",
+    "instrumentType": "EQUITY",
+    "dataSource": "FALLBACK",
+    "ltp": 816.85,
+    "atr14": 19.18,
+    "supportPool": [
+      {
+        "type": "52-Week Low Floor",
+        "price": 814.23,
+        "zoneMin": 814.23,
+        "zoneMax": 819.98,
+        "touchCount": 1,
+        "ageDays": 0,
+        "volumeRatio": 1,
+        "isOverhead": false
+      }
+    ],
+    "resistancePool": [
+      {
+        "type": "Reaction Cluster (2 touches)",
+        "price": 821.41,
+        "zoneMin": 819.68,
+        "zoneMax": 823.15,
+        "touchCount": 2,
+        "ageDays": 41,
+        "volumeRatio": 0.92,
+        "isOverhead": true
+      },
+      {
+        "type": "Reaction Cluster (4 touches)",
+        "price": 860.5,
+        "zoneMin": 858.15,
+        "zoneMax": 862.97,
+        "touchCount": 4,
+        "ageDays": 123,
+        "volumeRatio": 1.05,
+        "isOverhead": true
+      },
+      {
+        "type": "Swing Low Pivot",
+        "price": 878.13,
+        "zoneMin": 878.13,
+        "zoneMax": 878.13,
+        "touchCount": 1,
+        "ageDays": 208,
+        "volumeRatio": 0.93,
+        "isOverhead": true
+      },
+      {
+        "type": "50-DMA",
+        "price": 893.21,
+        "zoneMin": 889.38,
+        "zoneMax": 897.05,
+        "touchCount": 1,
+        "ageDays": 0,
+        "volumeRatio": 1,
+        "isOverhead": true
+      },
+      {
+        "type": "100-DMA",
+        "price": 900.21,
+        "zoneMin": 896.37,
+        "zoneMax": 904.04,
+        "touchCount": 1,
+        "ageDays": 0,
+        "volumeRatio": 1,
+        "isOverhead": true
+      },
+      {
+        "type": "Swing Low Pivot",
+        "price": 907.95,
+        "zoneMin": 907.95,
+        "zoneMax": 907.95,
+        "touchCount": 1,
+        "ageDays": 252,
+        "volumeRatio": 1.11,
+        "isOverhead": true
+      },
+      {
+        "type": "200-EMA",
+        "price": 921.52,
+        "zoneMin": 916.73,
+        "zoneMax": 926.32,
+        "touchCount": 1,
+        "ageDays": 0,
+        "volumeRatio": 1,
+        "isOverhead": true
+      },
+      {
+        "type": "Swing Low Pivot",
+        "price": 960.58,
+        "zoneMin": 960.58,
+        "zoneMax": 960.58,
+        "touchCount": 1,
+        "ageDays": 20,
+        "volumeRatio": 0.92,
+        "isOverhead": true
+      },
+      {
+        "type": "Reaction Cluster (2 touches)",
+        "price": 985.3,
+        "zoneMin": 984.3,
+        "zoneMax": 986.3,
+        "touchCount": 2,
+        "ageDays": 107,
+        "volumeRatio": 1.1,
+        "isOverhead": true
+      },
+      {
+        "type": "52-Week High Ceiling",
+        "price": 1074.06,
+        "zoneMin": 1068.31,
+        "zoneMax": 1074.06,
+        "touchCount": 1,
+        "ageDays": 0,
+        "volumeRatio": 1,
+        "isOverhead": true
+      }
+    ],
+    "e1": {
+      "price": 802.47,
+      "zone": [
+        797.68,
+        802.47
+      ],
+      "type": "Volatility Fallback (0.75 ATR)",
+      "classification": "MATHEMATICAL / VOLATILITY FALLBACK"
+    },
+    "e2": null,
+    "e3": null,
+    "sl": {
+      "price": 788.08,
+      "type": "Below E1 Structure - 0.5 ATR (Anti-Compression Floor Enforced)",
+      "buffer": 9.59,
+      "distancePct": -3.52,
+      "classification": "ANTI-COMPRESSION FLOOR"
+    },
+    "t1": {
+      "price": 860.5,
+      "zone": [
+        858.15,
+        862.97
+      ],
+      "type": "Reaction Cluster (4 touches)",
+      "classification": "STRUCTURALLY SUPPORTED"
+    },
+    "t2": {
+      "price": 893.21,
+      "zone": [
+        889.38,
+        897.05
+      ],
+      "type": "50-DMA",
+      "classification": "STRUCTURALLY SUPPORTED"
+    },
+    "t3": {
+      "price": 960.58,
+      "zone": [
+        960.58,
+        960.58
+      ],
+      "type": "Swing Low Pivot",
+      "classification": "STRUCTURALLY SUPPORTED"
+    },
+    "orderingValid": true,
+    "orderingLog": [],
+    "prodStop": 788.08,
+    "prodTarget": 882.2,
+    "prodMaxEntry": 819.45
+  },
+  {
+    "symbol": "KPITTECH",
+    "companyName": "KPIT Technologies Limited",
+    "sector": "INDUSTRIAL",
+    "instrumentType": "EQUITY",
+    "dataSource": "FALLBACK",
+    "ltp": 1650,
+    "atr14": 37.43,
+    "supportPool": [
+      {
+        "type": "Swing Low Pivot",
+        "price": 1642.58,
+        "zoneMin": 1642.58,
+        "zoneMax": 1642.58,
+        "touchCount": 1,
+        "ageDays": 2,
+        "volumeRatio": 1.04,
+        "isOverhead": false
+      }
+    ],
+    "resistancePool": [
+      {
+        "type": "Swing Low Pivot",
+        "price": 1695.34,
+        "zoneMin": 1695.34,
+        "zoneMax": 1695.34,
+        "touchCount": 1,
+        "ageDays": 40,
+        "volumeRatio": 0.88,
+        "isOverhead": true
+      },
+      {
+        "type": "50-DMA",
+        "price": 1816.41,
+        "zoneMin": 1808.93,
+        "zoneMax": 1823.9,
+        "touchCount": 1,
+        "ageDays": 0,
+        "volumeRatio": 1,
+        "isOverhead": true
+      },
+      {
+        "type": "Reaction Cluster (2 touches)",
+        "price": 1843.99,
+        "zoneMin": 1842.55,
+        "zoneMax": 1845.43,
+        "touchCount": 2,
+        "ageDays": 85,
+        "volumeRatio": 1.24,
+        "isOverhead": true
+      },
+      {
+        "type": "100-DMA",
+        "price": 1895.29,
+        "zoneMin": 1887.8,
+        "zoneMax": 1902.78,
+        "touchCount": 1,
+        "ageDays": 0,
+        "volumeRatio": 1,
+        "isOverhead": true
+      },
+      {
+        "type": "200-EMA",
+        "price": 1951.58,
+        "zoneMin": 1942.23,
+        "zoneMax": 1960.94,
+        "touchCount": 1,
+        "ageDays": 0,
+        "volumeRatio": 1,
+        "isOverhead": true
+      },
+      {
+        "type": "52-Week High Ceiling",
+        "price": 2267.29,
+        "zoneMin": 2256.06,
+        "zoneMax": 2267.29,
+        "touchCount": 1,
+        "ageDays": 0,
+        "volumeRatio": 1,
+        "isOverhead": true
+      }
+    ],
+    "e1": {
+      "price": 1621.92,
+      "zone": [
+        1612.56,
+        1621.92
+      ],
+      "type": "Volatility Fallback (0.75 ATR)",
+      "classification": "MATHEMATICAL / VOLATILITY FALLBACK"
+    },
+    "e2": null,
+    "e3": null,
+    "sl": {
+      "price": 1593.85,
+      "type": "Below E1 Structure - 0.5 ATR (Anti-Compression Floor Enforced)",
+      "buffer": 18.72,
+      "distancePct": -3.4,
+      "classification": "ANTI-COMPRESSION FLOOR"
+    },
+    "t1": {
+      "price": 1695.34,
+      "zone": [
+        1695.34,
+        1695.34
+      ],
+      "type": "Swing Low Pivot",
+      "classification": "STRUCTURALLY SUPPORTED"
+    },
+    "t2": {
+      "price": 1816.41,
+      "zone": [
+        1808.93,
+        1823.9
+      ],
+      "type": "50-DMA",
+      "classification": "STRUCTURALLY SUPPORTED"
+    },
+    "t3": {
+      "price": 1895.29,
+      "zone": [
+        1887.8,
+        1902.78
+      ],
+      "type": "100-DMA",
+      "classification": "STRUCTURALLY SUPPORTED"
+    },
+    "orderingValid": true,
+    "orderingLog": [],
+    "prodStop": 1593.85,
+    "prodTarget": 1782,
+    "prodMaxEntry": 1656.57
+  },
+  {
+    "symbol": "NAVINFLUOR",
+    "companyName": "Navin Fluorine International Limited",
+    "sector": "INDUSTRIAL",
+    "instrumentType": "EQUITY",
+    "dataSource": "FALLBACK",
+    "ltp": 3450,
+    "atr14": 70.9,
+    "supportPool": [
+      {
+        "type": "Reaction Cluster (4 touches)",
+        "price": 3369.95,
+        "zoneMin": 3351.39,
+        "zoneMax": 3398.42,
+        "touchCount": 4,
+        "ageDays": 42,
+        "volumeRatio": 1.16,
+        "isOverhead": false
+      },
+      {
+        "type": "Reaction Cluster (4 touches)",
+        "price": 3312.95,
+        "zoneMin": 3299,
+        "zoneMax": 3336.56,
+        "touchCount": 4,
+        "ageDays": 80,
+        "volumeRatio": 1.06,
+        "isOverhead": false
+      }
+    ],
+    "resistancePool": [
+      {
+        "type": "Swing Low Pivot",
+        "price": 3495.66,
+        "zoneMin": 3495.66,
+        "zoneMax": 3495.66,
+        "touchCount": 1,
+        "ageDays": 252,
+        "volumeRatio": 1.21,
+        "isOverhead": true
+      },
+      {
+        "type": "100-DMA",
+        "price": 3661.05,
+        "zoneMin": 3646.87,
+        "zoneMax": 3675.23,
+        "touchCount": 1,
+        "ageDays": 0,
+        "volumeRatio": 1,
+        "isOverhead": true
+      },
+      {
+        "type": "200-EMA",
+        "price": 3687.01,
+        "zoneMin": 3669.29,
+        "zoneMax": 3704.74,
+        "touchCount": 1,
+        "ageDays": 0,
+        "volumeRatio": 1,
+        "isOverhead": true
+      },
+      {
+        "type": "Reaction Cluster (2 touches)",
+        "price": 3884.38,
+        "zoneMin": 3880.52,
+        "zoneMax": 3888.25,
+        "touchCount": 2,
+        "ageDays": 147,
+        "volumeRatio": 1.17,
+        "isOverhead": true
+      },
+      {
+        "type": "52-Week High Ceiling",
+        "price": 4170.09,
+        "zoneMin": 4148.82,
+        "zoneMax": 4170.09,
+        "touchCount": 1,
+        "ageDays": 0,
+        "volumeRatio": 1,
+        "isOverhead": true
+      }
+    ],
+    "e1": {
+      "price": 3369.95,
+      "zone": [
+        3351.39,
+        3398.42
+      ],
+      "type": "Reaction Cluster (4 touches)",
+      "classification": "STRUCTURALLY SUPPORTED"
+    },
+    "e2": {
+      "price": 3312.95,
+      "zone": [
+        3299,
+        3336.56
+      ],
+      "type": "Reaction Cluster (4 touches)",
+      "classification": "STRUCTURALLY SUPPORTED"
+    },
+    "e3": null,
+    "sl": {
+      "price": 3277.5,
+      "type": "Below E2 Structure - 0.5 ATR",
+      "buffer": 35.45,
+      "distancePct": -5,
+      "classification": "STRUCTURAL INVALIDATION"
+    },
+    "t1": {
+      "price": 3661.05,
+      "zone": [
+        3646.87,
+        3675.23
+      ],
+      "type": "100-DMA",
+      "classification": "STRUCTURALLY SUPPORTED"
+    },
+    "t2": {
+      "price": 3884.38,
+      "zone": [
+        3880.52,
+        3888.25
+      ],
+      "type": "Reaction Cluster (2 touches)",
+      "classification": "STRUCTURALLY SUPPORTED"
+    },
+    "t3": {
+      "price": 4170.09,
+      "zone": [
+        4148.82,
+        4170.09
+      ],
+      "type": "52-Week High Ceiling",
+      "classification": "STRUCTURALLY SUPPORTED"
+    },
+    "orderingValid": true,
+    "orderingLog": [],
+    "prodStop": 3343.65,
+    "prodTarget": 3726,
+    "prodMaxEntry": 3471.1
+  },
+  {
+    "symbol": "TATAMOTORS",
+    "companyName": "Tata Motors Limited",
+    "sector": "INDUSTRIAL",
+    "instrumentType": "EQUITY",
+    "dataSource": "FALLBACK",
+    "ltp": 965,
+    "atr14": 19.98,
+    "supportPool": [
+      {
+        "type": "Reaction Cluster (2 touches)",
+        "price": 959.05,
+        "zoneMin": 956.48,
+        "zoneMax": 961.63,
+        "touchCount": 2,
+        "ageDays": 41,
+        "volumeRatio": 1.09,
+        "isOverhead": false
+      }
+    ],
+    "resistancePool": [
+      {
+        "type": "Swing Low Pivot",
+        "price": 1004.71,
+        "zoneMin": 1004.71,
+        "zoneMax": 1004.71,
+        "touchCount": 1,
+        "ageDays": 125,
+        "volumeRatio": 0.77,
+        "isOverhead": true
+      },
+      {
+        "type": "50-DMA",
+        "price": 1039.89,
+        "zoneMin": 1035.89,
+        "zoneMax": 1043.88,
+        "touchCount": 1,
+        "ageDays": 0,
+        "volumeRatio": 1,
+        "isOverhead": true
+      },
+      {
+        "type": "100-DMA",
+        "price": 1049.24,
+        "zoneMin": 1045.25,
+        "zoneMax": 1053.24,
+        "touchCount": 1,
+        "ageDays": 0,
+        "volumeRatio": 1,
+        "isOverhead": true
+      },
+      {
+        "type": "Reaction Cluster (2 touches)",
+        "price": 1059.13,
+        "zoneMin": 1058.44,
+        "zoneMax": 1059.81,
+        "touchCount": 2,
+        "ageDays": 165,
+        "volumeRatio": 1.04,
+        "isOverhead": true
+      },
+      {
+        "type": "200-EMA",
+        "price": 1103.65,
+        "zoneMin": 1098.66,
+        "zoneMax": 1108.64,
+        "touchCount": 1,
+        "ageDays": 0,
+        "volumeRatio": 1,
+        "isOverhead": true
+      },
+      {
+        "type": "Reaction Cluster (3 touches)",
+        "price": 1115.18,
+        "zoneMin": 1113.13,
+        "zoneMax": 1116.42,
+        "touchCount": 3,
+        "ageDays": 62,
+        "volumeRatio": 1.04,
+        "isOverhead": true
+      },
+      {
+        "type": "Swing Low Pivot",
+        "price": 1149.28,
+        "zoneMin": 1149.28,
+        "zoneMax": 1149.28,
+        "touchCount": 1,
+        "ageDays": 253,
+        "volumeRatio": 1.23,
+        "isOverhead": true
+      },
+      {
+        "type": "52-Week High Ceiling",
+        "price": 1364.59,
+        "zoneMin": 1358.6,
+        "zoneMax": 1364.59,
+        "touchCount": 1,
+        "ageDays": 0,
+        "volumeRatio": 1,
+        "isOverhead": true
+      }
+    ],
+    "e1": {
+      "price": 959.05,
+      "zone": [
+        956.48,
+        961.63
+      ],
+      "type": "Reaction Cluster (2 touches)",
+      "classification": "STRUCTURALLY SUPPORTED"
+    },
+    "e2": null,
+    "e3": null,
+    "sl": {
+      "price": 935.03,
+      "type": "Below E1 Structure - 0.5 ATR (Anti-Compression Floor Enforced)",
+      "buffer": 9.99,
+      "distancePct": -3.11,
+      "classification": "ANTI-COMPRESSION FLOOR"
+    },
+    "t1": {
+      "price": 1004.71,
+      "zone": [
+        1004.71,
+        1004.71
+      ],
+      "type": "Swing Low Pivot",
+      "classification": "STRUCTURALLY SUPPORTED"
+    },
+    "t2": {
+      "price": 1039.89,
+      "zone": [
+        1035.89,
+        1043.88
+      ],
+      "type": "50-DMA",
+      "classification": "STRUCTURALLY SUPPORTED"
+    },
+    "t3": {
+      "price": 1103.65,
+      "zone": [
+        1098.66,
+        1108.64
+      ],
+      "type": "200-EMA",
+      "classification": "STRUCTURALLY SUPPORTED"
+    },
+    "orderingValid": true,
+    "orderingLog": [],
+    "prodStop": 935.03,
+    "prodTarget": 1042.2,
+    "prodMaxEntry": 970.75
+  },
+  {
+    "symbol": "INFY",
+    "companyName": "Infosys Limited",
+    "sector": "INDUSTRIAL",
+    "instrumentType": "EQUITY",
+    "dataSource": "FALLBACK",
+    "ltp": 1895,
+    "atr14": 43.26,
+    "supportPool": [
+      {
+        "type": "52-Week Low Floor",
+        "price": 1887.3,
+        "zoneMin": 1887.3,
+        "zoneMax": 1900.27,
+        "touchCount": 1,
+        "ageDays": 0,
+        "volumeRatio": 1,
+        "isOverhead": false
+      }
+    ],
+    "resistancePool": [
+      {
+        "type": "Reaction Cluster (2 touches)",
+        "price": 1992.22,
+        "zoneMin": 1990.18,
+        "zoneMax": 1994.27,
+        "touchCount": 2,
+        "ageDays": 37,
+        "volumeRatio": 1.14,
+        "isOverhead": true
+      },
+      {
+        "type": "Swing Low Pivot",
+        "price": 2049.78,
+        "zoneMin": 2049.78,
+        "zoneMax": 2049.78,
+        "touchCount": 1,
+        "ageDays": 81,
+        "volumeRatio": 1.01,
+        "isOverhead": true
+      },
+      {
+        "type": "50-DMA",
+        "price": 2107.16,
+        "zoneMin": 2098.51,
+        "zoneMax": 2115.82,
+        "touchCount": 1,
+        "ageDays": 0,
+        "volumeRatio": 1,
+        "isOverhead": true
+      },
+      {
+        "type": "Reaction Cluster (3 touches)",
+        "price": 2179.7,
+        "zoneMin": 2164.54,
+        "zoneMax": 2196.61,
+        "touchCount": 3,
+        "ageDays": 125,
+        "volumeRatio": 1.23,
+        "isOverhead": true
+      },
+      {
+        "type": "Swing Low Pivot",
+        "price": 2200.25,
+        "zoneMin": 2200.25,
+        "zoneMax": 2200.25,
+        "touchCount": 1,
+        "ageDays": 164,
+        "volumeRatio": 0.94,
+        "isOverhead": true
+      },
+      {
+        "type": "200-EMA",
+        "price": 2260.85,
+        "zoneMin": 2250.03,
+        "zoneMax": 2271.66,
+        "touchCount": 1,
+        "ageDays": 0,
+        "volumeRatio": 1,
+        "isOverhead": true
+      },
+      {
+        "type": "Reaction Cluster (2 touches)",
+        "price": 2306.77,
+        "zoneMin": 2300.71,
+        "zoneMax": 2312.82,
+        "touchCount": 2,
+        "ageDays": 250,
+        "volumeRatio": 1.13,
+        "isOverhead": true
+      },
+      {
+        "type": "52-Week High Ceiling",
+        "price": 2678.5,
+        "zoneMin": 2665.52,
+        "zoneMax": 2678.5,
+        "touchCount": 1,
+        "ageDays": 0,
+        "volumeRatio": 1,
+        "isOverhead": true
+      }
+    ],
+    "e1": {
+      "price": 1862.55,
+      "zone": [
+        1851.73,
+        1862.55
+      ],
+      "type": "Volatility Fallback (0.75 ATR)",
+      "classification": "MATHEMATICAL / VOLATILITY FALLBACK"
+    },
+    "e2": null,
+    "e3": null,
+    "sl": {
+      "price": 1830.1,
+      "type": "Below E1 Structure - 0.5 ATR (Anti-Compression Floor Enforced)",
+      "buffer": 21.63,
+      "distancePct": -3.42,
+      "classification": "ANTI-COMPRESSION FLOOR"
+    },
+    "t1": {
+      "price": 1992.22,
+      "zone": [
+        1990.18,
+        1994.27
+      ],
+      "type": "Reaction Cluster (2 touches)",
+      "classification": "STRUCTURALLY SUPPORTED"
+    },
+    "t2": {
+      "price": 2049.78,
+      "zone": [
+        2049.78,
+        2049.78
+      ],
+      "type": "Swing Low Pivot",
+      "classification": "STRUCTURALLY SUPPORTED"
+    },
+    "t3": {
+      "price": 2179.7,
+      "zone": [
+        2164.54,
+        2196.61
+      ],
+      "type": "Reaction Cluster (3 touches)",
+      "classification": "STRUCTURALLY SUPPORTED"
+    },
+    "orderingValid": true,
+    "orderingLog": [],
+    "prodStop": 1830.1,
+    "prodTarget": 2046.6,
+    "prodMaxEntry": 1902.27
+  },
+  {
+    "symbol": "GOLDBEES",
+    "companyName": "Nippon India ETF Gold BeES",
+    "sector": "ETF",
+    "instrumentType": "ETF",
+    "dataSource": "OFFLINE_MOCK",
+    "ltp": 125,
+    "atr14": 3.52,
+    "supportPool": [
+      {
+        "type": "52-Week Low Floor",
+        "price": 124.01,
+        "zoneMin": 124.01,
+        "zoneMax": 125.07,
+        "touchCount": 1,
+        "ageDays": 0,
+        "volumeRatio": 1,
+        "isOverhead": false
+      }
+    ],
+    "resistancePool": [
+      {
+        "type": "Swing Low Pivot",
+        "price": 131.25,
+        "zoneMin": 131.25,
+        "zoneMax": 131.25,
+        "touchCount": 1,
+        "ageDays": 42,
+        "volumeRatio": 1.05,
+        "isOverhead": true
+      },
+      {
+        "type": "Reaction Cluster (2 touches)",
+        "price": 135.21,
+        "zoneMin": 135.18,
+        "zoneMax": 135.24,
+        "touchCount": 2,
+        "ageDays": 82,
+        "volumeRatio": 1.24,
+        "isOverhead": true
+      },
+      {
+        "type": "Reaction Cluster (2 touches)",
+        "price": 138.87,
+        "zoneMin": 138.82,
+        "zoneMax": 138.92,
+        "touchCount": 2,
+        "ageDays": 123,
+        "volumeRatio": 0.97,
+        "isOverhead": true
+      },
+      {
+        "type": "50-DMA",
+        "price": 141.6,
+        "zoneMin": 140.9,
+        "zoneMax": 142.31,
+        "touchCount": 1,
+        "ageDays": 0,
+        "volumeRatio": 1,
+        "isOverhead": true
+      },
+      {
+        "type": "100-DMA",
+        "price": 145.44,
+        "zoneMin": 144.73,
+        "zoneMax": 146.14,
+        "touchCount": 1,
+        "ageDays": 0,
+        "volumeRatio": 1,
+        "isOverhead": true
+      },
+      {
+        "type": "Swing Low Pivot",
+        "price": 149.74,
+        "zoneMin": 149.74,
+        "zoneMax": 149.74,
+        "touchCount": 1,
+        "ageDays": 167,
+        "volumeRatio": 1.21,
+        "isOverhead": true
+      },
+      {
+        "type": "200-EMA",
+        "price": 155.18,
+        "zoneMin": 154.3,
+        "zoneMax": 156.06,
+        "touchCount": 1,
+        "ageDays": 0,
+        "volumeRatio": 1,
+        "isOverhead": true
+      },
+      {
+        "type": "Reaction Cluster (2 touches)",
+        "price": 159.01,
+        "zoneMin": 158.82,
+        "zoneMax": 159.21,
+        "touchCount": 2,
+        "ageDays": 207,
+        "volumeRatio": 1.13,
+        "isOverhead": true
+      },
+      {
+        "type": "Reaction Cluster (2 touches)",
+        "price": 166.45,
+        "zoneMin": 166.44,
+        "zoneMax": 166.46,
+        "touchCount": 2,
+        "ageDays": 251,
+        "volumeRatio": 1.02,
+        "isOverhead": true
+      },
+      {
+        "type": "52-Week High Ceiling",
+        "price": 201.15,
+        "zoneMin": 200.09,
+        "zoneMax": 201.15,
+        "touchCount": 1,
+        "ageDays": 0,
+        "volumeRatio": 1,
+        "isOverhead": true
+      }
+    ],
+    "e1": {
+      "price": 124.01,
+      "zone": [
+        124.01,
+        125.07
+      ],
+      "type": "52-Week Low Floor",
+      "classification": "STRUCTURALLY SUPPORTED"
+    },
+    "e2": null,
+    "e3": null,
+    "sl": {
+      "price": 119.72,
+      "type": "Below E1 Structure - 0.5 ATR (Anti-Compression Floor Enforced)",
+      "buffer": 1.76,
+      "distancePct": -4.22,
+      "classification": "ANTI-COMPRESSION FLOOR"
+    },
+    "t1": {
+      "price": 131.25,
+      "zone": [
+        131.25,
+        131.25
+      ],
+      "type": "Swing Low Pivot",
+      "classification": "STRUCTURALLY SUPPORTED"
+    },
+    "t2": {
+      "price": 135.21,
+      "zone": [
+        135.18,
+        135.24
+      ],
+      "type": "Reaction Cluster (2 touches)",
+      "classification": "STRUCTURALLY SUPPORTED"
+    },
+    "t3": {
+      "price": 141.6,
+      "zone": [
+        140.9,
+        142.31
+      ],
+      "type": "50-DMA",
+      "classification": "STRUCTURALLY SUPPORTED"
+    },
+    "orderingValid": true,
+    "orderingLog": [],
+    "prodStop": 119.72,
+    "prodTarget": 135.56,
+    "prodMaxEntry": 125
+  },
+  {
+    "symbol": "ITCHOTELS",
+    "companyName": "ITC Hotels Limited",
+    "sector": "INDUSTRIAL",
+    "instrumentType": "EQUITY",
+    "dataSource": "FALLBACK",
+    "ltp": 163.81,
+    "atr14": 3.95,
+    "supportPool": [
+      {
+        "type": "52-Week Low Floor",
+        "price": 162.6,
+        "zoneMin": 162.6,
+        "zoneMax": 163.79,
+        "touchCount": 1,
+        "ageDays": 0,
+        "volumeRatio": 1,
+        "isOverhead": false
+      }
+    ],
+    "resistancePool": [
+      {
+        "type": "Swing Low Pivot",
+        "price": 165.5,
+        "zoneMin": 165.5,
+        "zoneMax": 165.5,
+        "touchCount": 1,
+        "ageDays": 43,
+        "volumeRatio": 1.04,
+        "isOverhead": true
+      },
+      {
+        "type": "Swing Low Pivot",
+        "price": 175.18,
+        "zoneMin": 175.18,
+        "zoneMax": 175.18,
+        "touchCount": 1,
+        "ageDays": 84,
+        "volumeRatio": 1,
+        "isOverhead": true
+      },
+      {
+        "type": "50-DMA",
+        "price": 179.21,
+        "zoneMin": 178.42,
+        "zoneMax": 180,
+        "touchCount": 1,
+        "ageDays": 0,
+        "volumeRatio": 1,
+        "isOverhead": true
+      },
+      {
+        "type": "100-DMA",
+        "price": 183.86,
+        "zoneMin": 183.07,
+        "zoneMax": 184.65,
+        "touchCount": 1,
+        "ageDays": 0,
+        "volumeRatio": 1,
+        "isOverhead": true
+      },
+      {
+        "type": "Reaction Cluster (3 touches)",
+        "price": 189.01,
+        "zoneMin": 187.28,
+        "zoneMax": 189.98,
+        "touchCount": 3,
+        "ageDays": 126,
+        "volumeRatio": 1.23,
+        "isOverhead": true
+      },
+      {
+        "type": "Reaction Cluster (3 touches)",
+        "price": 191.98,
+        "zoneMin": 191.52,
+        "zoneMax": 192.77,
+        "touchCount": 3,
+        "ageDays": 208,
+        "volumeRatio": 1.09,
+        "isOverhead": true
+      },
+      {
+        "type": "Swing Low Pivot",
+        "price": 197.26,
+        "zoneMin": 197.26,
+        "zoneMax": 197.26,
+        "touchCount": 1,
+        "ageDays": 252,
+        "volumeRatio": 1.04,
+        "isOverhead": true
+      },
+      {
+        "type": "52-Week High Ceiling",
+        "price": 230.86,
+        "zoneMin": 229.68,
+        "zoneMax": 230.86,
+        "touchCount": 1,
+        "ageDays": 0,
+        "volumeRatio": 1,
+        "isOverhead": true
+      }
+    ],
+    "e1": {
+      "price": 162.6,
+      "zone": [
+        162.6,
+        163.79
+      ],
+      "type": "52-Week Low Floor",
+      "classification": "STRUCTURALLY SUPPORTED"
+    },
+    "e2": null,
+    "e3": null,
+    "sl": {
+      "price": 157.89,
+      "type": "Below E1 Structure - 0.5 ATR (Anti-Compression Floor Enforced)",
+      "buffer": 1.97,
+      "distancePct": -3.61,
+      "classification": "ANTI-COMPRESSION FLOOR"
+    },
+    "t1": {
+      "price": 175.18,
+      "zone": [
+        175.18,
+        175.18
+      ],
+      "type": "Swing Low Pivot",
+      "classification": "STRUCTURALLY SUPPORTED"
+    },
+    "t2": {
+      "price": 179.21,
+      "zone": [
+        178.42,
+        180
+      ],
+      "type": "50-DMA",
+      "classification": "STRUCTURALLY SUPPORTED"
+    },
+    "t3": {
+      "price": 189.01,
+      "zone": [
+        187.28,
+        189.98
+      ],
+      "type": "Reaction Cluster (3 touches)",
+      "classification": "STRUCTURALLY SUPPORTED"
+    },
+    "orderingValid": true,
+    "orderingLog": [],
+    "prodStop": 157.89,
+    "prodTarget": 176.91,
+    "prodMaxEntry": 164.23
+  },
+  {
+    "symbol": "ITBEES",
+    "companyName": "Nippon India ETF Nifty IT",
+    "sector": "ETF",
+    "instrumentType": "ETF",
+    "dataSource": "FALLBACK",
+    "ltp": 40.23,
+    "atr14": 0.86,
+    "supportPool": [
+      {
+        "type": "Reaction Cluster (4 touches)",
+        "price": 39.59,
+        "zoneMin": 39.17,
+        "zoneMax": 40.06,
+        "touchCount": 4,
+        "ageDays": 2,
+        "volumeRatio": 1.2,
+        "isOverhead": false
+      },
+      {
+        "type": "52-Week Low Floor",
+        "price": 39.17,
+        "zoneMin": 39.17,
+        "zoneMax": 39.42,
+        "touchCount": 1,
+        "ageDays": 0,
+        "volumeRatio": 1,
+        "isOverhead": false
+      }
+    ],
+    "resistancePool": [
+      {
+        "type": "Swing Low Pivot",
+        "price": 40.43,
+        "zoneMin": 40.43,
+        "zoneMax": 40.43,
+        "touchCount": 1,
+        "ageDays": 251,
+        "volumeRatio": 0.79,
+        "isOverhead": true
+      },
+      {
+        "type": "Reaction Cluster (4 touches)",
+        "price": 40.75,
+        "zoneMin": 40.54,
+        "zoneMax": 41.1,
+        "touchCount": 4,
+        "ageDays": 165,
+        "volumeRatio": 1.21,
+        "isOverhead": true
+      },
+      {
+        "type": "50-DMA",
+        "price": 43.17,
+        "zoneMin": 43,
+        "zoneMax": 43.34,
+        "touchCount": 1,
+        "ageDays": 0,
+        "volumeRatio": 1,
+        "isOverhead": true
+      },
+      {
+        "type": "200-EMA",
+        "price": 43.53,
+        "zoneMin": 43.32,
+        "zoneMax": 43.75,
+        "touchCount": 1,
+        "ageDays": 0,
+        "volumeRatio": 1,
+        "isOverhead": true
+      },
+      {
+        "type": "Swing Low Pivot",
+        "price": 46.2,
+        "zoneMin": 46.2,
+        "zoneMax": 46.2,
+        "touchCount": 1,
+        "ageDays": 229,
+        "volumeRatio": 0.78,
+        "isOverhead": true
+      },
+      {
+        "type": "Swing Low Pivot",
+        "price": 47.08,
+        "zoneMin": 47.08,
+        "zoneMax": 47.08,
+        "touchCount": 1,
+        "ageDays": 186,
+        "volumeRatio": 0.78,
+        "isOverhead": true
+      },
+      {
+        "type": "52-Week High Ceiling",
+        "price": 48.4,
+        "zoneMin": 48.14,
+        "zoneMax": 48.4,
+        "touchCount": 1,
+        "ageDays": 0,
+        "volumeRatio": 1,
+        "isOverhead": true
+      }
+    ],
+    "e1": {
+      "price": 39.59,
+      "zone": [
+        39.17,
+        40.06
+      ],
+      "type": "Reaction Cluster (4 touches)",
+      "classification": "STRUCTURALLY SUPPORTED"
+    },
+    "e2": null,
+    "e3": null,
+    "sl": {
+      "price": 38.93,
+      "type": "Below E1 Structure - 0.5 ATR (Anti-Compression Floor Enforced)",
+      "buffer": 0.43,
+      "distancePct": -3.23,
+      "classification": "ANTI-COMPRESSION FLOOR"
+    },
+    "t1": {
+      "price": 43.17,
+      "zone": [
+        43,
+        43.34
+      ],
+      "type": "50-DMA",
+      "classification": "STRUCTURALLY SUPPORTED"
+    },
+    "t2": {
+      "price": 46.2,
+      "zone": [
+        46.2,
+        46.2
+      ],
+      "type": "Swing Low Pivot",
+      "classification": "STRUCTURALLY SUPPORTED"
+    },
+    "t3": {
+      "price": 48.4,
+      "zone": [
+        48.14,
+        48.4
+      ],
+      "type": "52-Week High Ceiling",
+      "classification": "STRUCTURALLY SUPPORTED"
+    },
+    "orderingValid": true,
+    "orderingLog": [],
+    "prodStop": 38.93,
+    "prodTarget": 43.45,
+    "prodMaxEntry": 40.44
+  }
+]

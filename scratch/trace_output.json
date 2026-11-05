@@ -1,0 +1,613 @@
+{
+  "FINCABLES": {
+    "tradingSymbol": "FINCABLES",
+    "companyName": "Finolex Cables Limited",
+    "isin": "INE235A01022",
+    "instrumentKey": "NSE_EQ|INE235A01022",
+    "sector": "INDUSTRIAL",
+    "sectorName": "Capital Goods - Electrical Equipment",
+    "instrumentType": "EQUITY",
+    "dataSource": "UPSTOX_LIVE",
+    "fundamentalStatus": "LIVE",
+    "integrity": {
+      "status": "STALE_FILING",
+      "bsBalanced": true,
+      "bsDiscrepancyPct": 0,
+      "cashFlowReconciled": true,
+      "freshnessDays": 206,
+      "staleFiling": true,
+      "capitalAnomaly": false,
+      "reasons": [
+        "STALE_FILING: Most recent financial statement filing is 206 days old (>180 days limit)"
+      ]
+    },
+    "fundamentalBuckets": {
+      "total": 37,
+      "max": 50,
+      "valuationBucket": 12,
+      "equityMultiples": 7,
+      "enterpriseMultiples": 5,
+      "capitalEfficiencyBucket": 6,
+      "cashQualityBucket": 6,
+      "growthAndSolvencyBucket": 13,
+      "accrualTrapPenalty": 0
+    },
+    "technicalBuckets": {
+      "total": 10,
+      "max": 50,
+      "trendRegimeBucket": 0,
+      "momentumBucket": 3,
+      "volumeAccumulationBucket": 7,
+      "volumeVetoApplied": false
+    },
+    "fundamentalScore": 32,
+    "technicalScore": 10,
+    "coreScore": 42,
+    "zone": "HOLD",
+    "zoneReason": "STALE_FILING_INTERCEPTOR: Most recent filing is 206 days old (>180 days limit). Deducted 5 points from Fundamental Score and blocked FAVORABLE status until fresh audited filing.",
+    "fundamentalFactors": [
+      {
+        "name": "Cash Flow Conversion",
+        "category": "FUNDAMENTAL",
+        "bucket": "Cash Quality",
+        "weight": 6,
+        "score": 6,
+        "rawValue": "89.2%",
+        "state": "DERIVED",
+        "explanation": "High cash conversion: CFO/EBITDA is 89.2% (>=70%)"
+      },
+      {
+        "name": "P/E vs Sector",
+        "category": "FUNDAMENTAL",
+        "bucket": "Valuation Multiples",
+        "weight": 5,
+        "score": 5,
+        "rawValue": "24.2x",
+        "state": "AVAILABLE",
+        "explanation": "Attractively valued: P/E (24.2) is at 28.8% discount to sector"
+      },
+      {
+        "name": "P/B vs Sector",
+        "category": "FUNDAMENTAL",
+        "bucket": "Valuation Multiples",
+        "weight": 5,
+        "score": 5,
+        "rawValue": "3.2x",
+        "state": "AVAILABLE",
+        "explanation": "Deep book value discount: P/B 3.2x vs Sector 4.5x"
+      },
+      {
+        "name": "EV / EBITDA",
+        "category": "FUNDAMENTAL",
+        "bucket": "Valuation Multiples",
+        "weight": 5,
+        "score": 5,
+        "rawValue": "17.5x",
+        "state": "AVAILABLE",
+        "explanation": "Favorable enterprise valuation: 17.5x vs Sector 22.0x"
+      },
+      {
+        "name": "ROE (%)",
+        "category": "FUNDAMENTAL",
+        "bucket": "Capital Efficiency",
+        "weight": 6,
+        "score": 2,
+        "rawValue": "13.8%",
+        "state": "AVAILABLE",
+        "explanation": "Moderate returns: 13.8% (10-15%)"
+      },
+      {
+        "name": "ROCE (%)",
+        "category": "FUNDAMENTAL",
+        "bucket": "Capital Efficiency",
+        "weight": 6,
+        "score": 4,
+        "rawValue": "18.2%",
+        "state": "AVAILABLE",
+        "explanation": "Solid capital productivity: 18.2% (16-22%)"
+      },
+      {
+        "name": "Operating Margin (OPM)",
+        "category": "FUNDAMENTAL",
+        "bucket": "Growth & Solvency",
+        "weight": 5,
+        "score": 3,
+        "rawValue": "12.9%",
+        "state": "DERIVED",
+        "explanation": "Healthy margin: OPM 12.9% (12-20%)"
+      },
+      {
+        "name": "3Y Net Profit CAGR",
+        "category": "FUNDAMENTAL",
+        "bucket": "Growth & Solvency",
+        "weight": 6,
+        "score": 4,
+        "rawValue": "19.9%",
+        "state": "DERIVED",
+        "explanation": "Steady compounding growth: 19.9% CAGR (12-20%)"
+      },
+      {
+        "name": "Debt-to-Equity",
+        "category": "FUNDAMENTAL",
+        "bucket": "Growth & Solvency",
+        "weight": 6,
+        "score": 6,
+        "rawValue": "0.18x",
+        "state": "DERIVED",
+        "explanation": "Virtually debt-free / pristine balance sheet: D/E 0.18x (<=0.3x)"
+      }
+    ],
+    "technicalFactors": [
+      {
+        "name": "200-EMA Macro Regime",
+        "category": "TECHNICAL",
+        "bucket": "Trend & Macro",
+        "weight": 10,
+        "score": 0,
+        "rawValue": "EMA: 864.4",
+        "state": "DERIVED",
+        "explanation": "Below 200-EMA (Macro Bearish Regime)"
+      },
+      {
+        "name": "100-DMA Intermediate Trend",
+        "category": "TECHNICAL",
+        "bucket": "Trend & Macro",
+        "weight": 5,
+        "score": 0,
+        "rawValue": "SMA: 839.4",
+        "state": "DERIVED",
+        "explanation": "Below 100-DMA (Intermediate weakness)"
+      },
+      {
+        "name": "MA Alignment Stack",
+        "category": "TECHNICAL",
+        "bucket": "Trend & Macro",
+        "weight": 5,
+        "score": 0,
+        "rawValue": "Unaligned",
+        "state": "DERIVED",
+        "explanation": "Moving averages not in full bullish stack"
+      },
+      {
+        "name": "RSI (14) Momentum Band",
+        "category": "TECHNICAL",
+        "bucket": "Momentum",
+        "weight": 10,
+        "score": 3,
+        "rawValue": "46.3",
+        "state": "DERIVED",
+        "explanation": "Neutral Pullback Zone: RSI 46.3 (40-50)"
+      },
+      {
+        "name": "20-Day Rate of Change",
+        "category": "TECHNICAL",
+        "bucket": "Momentum",
+        "weight": 5,
+        "score": 0,
+        "rawValue": "-1.2%",
+        "state": "DERIVED",
+        "explanation": "Negative Momentum Velocity: -1.2%"
+      },
+      {
+        "name": "Volume Accumulation Ratio",
+        "category": "TECHNICAL",
+        "bucket": "Volume Confirmation",
+        "weight": 8,
+        "score": 5,
+        "rawValue": "1.00x",
+        "state": "DERIVED",
+        "explanation": "Balanced Accumulation: Up/Down Vol 1.00x (>= 1.0x)"
+      },
+      {
+        "name": "Breakout Volume Surge",
+        "category": "TECHNICAL",
+        "bucket": "Volume Confirmation",
+        "weight": 7,
+        "score": 2,
+        "rawValue": "1.00x SMA",
+        "state": "DERIVED",
+        "explanation": "Average Volume: Consistent with 20-day baseline"
+      }
+    ],
+    "safety": {
+      "cashDivergenceRedFlag": false,
+      "cyclicalPeakRisk": false,
+      "promoterPledgeRedFlag": false,
+      "promoterPledgePct": 0,
+      "earningsShockRedFlag": false,
+      "latestQuarterlyNetProfitYoY": 16.5,
+      "fundamentalFloorFailed": false,
+      "highSlippageRisk": false,
+      "bidAskSpreadPct": 0.18363224582236642,
+      "staleFilingRedFlag": true,
+      "filingFreshnessDays": 206
+    },
+    "execution": {
+      "status": "READY_TO_BUY",
+      "ltp": 816.85,
+      "stopLoss": 775.1451029409584,
+      "target": 900.2597941180833,
+      "maxEntry": 816.85,
+      "minimumRR": 2,
+      "twentyDayTurnoverCr": 36.87075,
+      "circuitLower": 653.5,
+      "circuitUpper": 980.2,
+      "distanceToMaxEntryPct": 0,
+      "bidAskSpreadPct": 0.18363224582236642,
+      "highSlippageRisk": false,
+      "antiStopCompressionApplied": true,
+      "minAllowedStopDistance": 41.70489705904161
+    },
+    "evaluatedAt": "2026-09-23T09:41:14.780Z"
+  },
+  "HDFCBANK": {
+    "tradingSymbol": "HDFCBANK",
+    "companyName": "HDFC Bank Limited",
+    "isin": "INE040A01034",
+    "instrumentKey": "NSE_EQ|INE040A01034",
+    "sector": "COMMERCIAL_BANK",
+    "sectorName": "Private Sector Bank",
+    "instrumentType": "BANK",
+    "dataSource": "DEMO",
+    "fundamentalStatus": "FALLBACK",
+    "integrity": {
+      "status": "PASSED",
+      "bsBalanced": true,
+      "bsDiscrepancyPct": 0,
+      "cashFlowReconciled": true,
+      "freshnessDays": 114,
+      "staleFiling": false,
+      "capitalAnomaly": false,
+      "reasons": []
+    },
+    "fundamentalBuckets": {
+      "total": 36,
+      "max": 50,
+      "valuationBucket": 8,
+      "equityMultiples": 7,
+      "enterpriseMultiples": 0,
+      "capitalEfficiencyBucket": 12,
+      "cashQualityBucket": 0,
+      "growthAndSolvencyBucket": 16,
+      "accrualTrapPenalty": 0
+    },
+    "technicalBuckets": {
+      "total": 2,
+      "max": 50,
+      "trendRegimeBucket": 0,
+      "momentumBucket": 0,
+      "volumeAccumulationBucket": 2,
+      "volumeVetoApplied": true
+    },
+    "fundamentalScore": 36,
+    "technicalScore": 2,
+    "coreScore": 38,
+    "zone": "CAUTION",
+    "zoneReason": "Underperforming fundamentals or macro bearish technical regime",
+    "fundamentalFactors": [
+      {
+        "name": "P/E vs Sector",
+        "category": "FUNDAMENTAL",
+        "bucket": "Valuation Multiples",
+        "weight": 7,
+        "score": 4,
+        "rawValue": "18.2x",
+        "state": "AVAILABLE",
+        "explanation": "Bank P/E multiple vs Sector banking peers"
+      },
+      {
+        "name": "P/B vs Sector",
+        "category": "FUNDAMENTAL",
+        "bucket": "Valuation Multiples",
+        "weight": 7,
+        "score": 4,
+        "rawValue": "2.6x",
+        "state": "AVAILABLE",
+        "explanation": "Core banking book value multiple"
+      },
+      {
+        "name": "Return on Assets (ROA)",
+        "category": "FUNDAMENTAL",
+        "bucket": "Capital Efficiency",
+        "weight": 10,
+        "score": 10,
+        "rawValue": "1.92%",
+        "state": "AVAILABLE",
+        "explanation": "Asset profitability: 1.92%"
+      },
+      {
+        "name": "Return on Equity (ROE)",
+        "category": "FUNDAMENTAL",
+        "bucket": "Capital Efficiency",
+        "weight": 10,
+        "score": 10,
+        "rawValue": "16.5%",
+        "state": "AVAILABLE",
+        "explanation": "Net worth profitability: 16.5%"
+      },
+      {
+        "name": "3Y Net Profit CAGR",
+        "category": "FUNDAMENTAL",
+        "bucket": "Growth & Solvency",
+        "weight": 8,
+        "score": 8,
+        "rawValue": "21.7%",
+        "state": "DERIVED",
+        "explanation": "Multi-year bank profit compounding: 21.7%"
+      },
+      {
+        "name": "Credit Cost & Provisioning",
+        "category": "FUNDAMENTAL",
+        "bucket": "Growth & Solvency",
+        "weight": 8,
+        "score": 8,
+        "rawValue": "Stable",
+        "state": "DERIVED",
+        "explanation": "Credit provisions stable and within expected thresholds"
+      }
+    ],
+    "technicalFactors": [
+      {
+        "name": "200-EMA Macro Regime",
+        "category": "TECHNICAL",
+        "bucket": "Trend & Macro",
+        "weight": 10,
+        "score": 0,
+        "rawValue": "EMA: 1980.4",
+        "state": "DERIVED",
+        "explanation": "Below 200-EMA (Macro Bearish Regime)"
+      },
+      {
+        "name": "100-DMA Intermediate Trend",
+        "category": "TECHNICAL",
+        "bucket": "Trend & Macro",
+        "weight": 5,
+        "score": 0,
+        "rawValue": "SMA: 1950.4",
+        "state": "DERIVED",
+        "explanation": "Below 100-DMA (Intermediate weakness)"
+      },
+      {
+        "name": "MA Alignment Stack",
+        "category": "TECHNICAL",
+        "bucket": "Trend & Macro",
+        "weight": 5,
+        "score": 0,
+        "rawValue": "Unaligned",
+        "state": "DERIVED",
+        "explanation": "Moving averages not in full bullish stack"
+      },
+      {
+        "name": "RSI (14) Momentum Band",
+        "category": "TECHNICAL",
+        "bucket": "Momentum",
+        "weight": 10,
+        "score": 0,
+        "rawValue": "15.6",
+        "state": "DERIVED",
+        "explanation": "Bearish Breakdown: RSI 15.6 (<40)"
+      },
+      {
+        "name": "20-Day Rate of Change",
+        "category": "TECHNICAL",
+        "bucket": "Momentum",
+        "weight": 5,
+        "score": 0,
+        "rawValue": "-20.4%",
+        "state": "DERIVED",
+        "explanation": "Negative Momentum Velocity: -20.4%"
+      },
+      {
+        "name": "Volume Accumulation Ratio",
+        "category": "TECHNICAL",
+        "bucket": "Volume Confirmation",
+        "weight": 8,
+        "score": 2,
+        "rawValue": "0.00x",
+        "state": "DERIVED",
+        "explanation": "Distribution Divergence: More volume on down days (0.00x < 1.0x)"
+      },
+      {
+        "name": "Breakout Volume Surge",
+        "category": "TECHNICAL",
+        "bucket": "Volume Confirmation",
+        "weight": 7,
+        "score": 0,
+        "rawValue": "0.87x SMA",
+        "state": "DERIVED",
+        "explanation": "Sub-par Volume: Latest volume is 87% of 20-day SMA"
+      }
+    ],
+    "safety": {
+      "cashDivergenceRedFlag": false,
+      "cyclicalPeakRisk": false,
+      "promoterPledgeRedFlag": false,
+      "promoterPledgePct": 0,
+      "earningsShockRedFlag": false,
+      "latestQuarterlyNetProfitYoY": 15.2,
+      "fundamentalFloorFailed": false,
+      "highSlippageRisk": false,
+      "bidAskSpreadPct": 0.05952380952380953,
+      "staleFilingRedFlag": false,
+      "filingFreshnessDays": 114
+    },
+    "execution": {
+      "status": "READY_TO_BUY",
+      "ltp": 1680,
+      "stopLoss": 1609.690124074377,
+      "target": 1820.6197518512456,
+      "maxEntry": 1680,
+      "minimumRR": 2,
+      "twentyDayTurnoverCr": 2490.5144173052954,
+      "circuitLower": 1512,
+      "circuitUpper": 1848,
+      "distanceToMaxEntryPct": 0,
+      "bidAskSpreadPct": 0.05952380952380953,
+      "highSlippageRisk": false,
+      "antiStopCompressionApplied": true,
+      "minAllowedStopDistance": 70.30987592562283
+    },
+    "evaluatedAt": "2026-09-23T09:41:14.780Z"
+  },
+  "GOLDBEES": {
+    "tradingSymbol": "GOLDBEES",
+    "companyName": "Nippon India ETF Gold BeES",
+    "isin": "INF204KB17I5",
+    "instrumentKey": "NSE_EQ|INF204KB17I5",
+    "sector": "ETF",
+    "sectorName": "Exchange Traded Fund - Commodity (Gold)",
+    "instrumentType": "ETF",
+    "dataSource": "UPSTOX_LIVE",
+    "fundamentalStatus": "UNAVAILABLE",
+    "integrity": {
+      "status": "STALE_FILING",
+      "bsBalanced": true,
+      "bsDiscrepancyPct": 0,
+      "cashFlowReconciled": true,
+      "freshnessDays": 206,
+      "staleFiling": true,
+      "capitalAnomaly": false,
+      "reasons": [
+        "STALE_FILING: Most recent financial statement filing is 206 days old (>180 days limit)"
+      ]
+    },
+    "fundamentalBuckets": {
+      "total": 0,
+      "max": 50,
+      "valuationBucket": 0,
+      "equityMultiples": 0,
+      "enterpriseMultiples": 0,
+      "capitalEfficiencyBucket": 0,
+      "cashQualityBucket": 0,
+      "growthAndSolvencyBucket": 0,
+      "accrualTrapPenalty": 0
+    },
+    "technicalBuckets": {
+      "total": 10,
+      "max": 50,
+      "trendRegimeBucket": 0,
+      "momentumBucket": 3,
+      "volumeAccumulationBucket": 7,
+      "volumeVetoApplied": false
+    },
+    "fundamentalScore": 0,
+    "technicalScore": 10,
+    "coreScore": 10,
+    "zone": "HOLD",
+    "zoneReason": "STALE_FILING_INTERCEPTOR: Most recent filing is 206 days old (>180 days limit). Deducted 5 points from Fundamental Score and blocked FAVORABLE status until fresh audited filing.",
+    "fundamentalFactors": [
+      {
+        "name": "ETF Fundamental Ratios",
+        "category": "FUNDAMENTAL",
+        "bucket": "ETF Model",
+        "weight": 50,
+        "score": 0,
+        "rawValue": "NOT_APPLICABLE",
+        "state": "NOT_APPLICABLE",
+        "explanation": "Exchange Traded Fund: Operating company corporate ratios (CFO/EBITDA, OPM, Debt/Equity, P/E) are NOT_APPLICABLE / DATA_UNAVAILABLE."
+      }
+    ],
+    "technicalFactors": [
+      {
+        "name": "200-EMA Macro Regime",
+        "category": "TECHNICAL",
+        "bucket": "Trend & Macro",
+        "weight": 10,
+        "score": 0,
+        "rawValue": "EMA: 130.3",
+        "state": "DERIVED",
+        "explanation": "Below 200-EMA (Macro Bearish Regime)"
+      },
+      {
+        "name": "100-DMA Intermediate Trend",
+        "category": "TECHNICAL",
+        "bucket": "Trend & Macro",
+        "weight": 5,
+        "score": 0,
+        "rawValue": "SMA: 127.7",
+        "state": "DERIVED",
+        "explanation": "Below 100-DMA (Intermediate weakness)"
+      },
+      {
+        "name": "MA Alignment Stack",
+        "category": "TECHNICAL",
+        "bucket": "Trend & Macro",
+        "weight": 5,
+        "score": 0,
+        "rawValue": "Unaligned",
+        "state": "DERIVED",
+        "explanation": "Moving averages not in full bullish stack"
+      },
+      {
+        "name": "RSI (14) Momentum Band",
+        "category": "TECHNICAL",
+        "bucket": "Momentum",
+        "weight": 10,
+        "score": 3,
+        "rawValue": "41.8",
+        "state": "DERIVED",
+        "explanation": "Neutral Pullback Zone: RSI 41.8 (40-50)"
+      },
+      {
+        "name": "20-Day Rate of Change",
+        "category": "TECHNICAL",
+        "bucket": "Momentum",
+        "weight": 5,
+        "score": 0,
+        "rawValue": "-0.8%",
+        "state": "DERIVED",
+        "explanation": "Negative Momentum Velocity: -0.8%"
+      },
+      {
+        "name": "Volume Accumulation Ratio",
+        "category": "TECHNICAL",
+        "bucket": "Volume Confirmation",
+        "weight": 8,
+        "score": 5,
+        "rawValue": "1.00x",
+        "state": "DERIVED",
+        "explanation": "Balanced Accumulation: Up/Down Vol 1.00x (>= 1.0x)"
+      },
+      {
+        "name": "Breakout Volume Surge",
+        "category": "TECHNICAL",
+        "bucket": "Volume Confirmation",
+        "weight": 7,
+        "score": 2,
+        "rawValue": "1.00x SMA",
+        "state": "DERIVED",
+        "explanation": "Average Volume: Consistent with 20-day baseline"
+      }
+    ],
+    "safety": {
+      "cashDivergenceRedFlag": false,
+      "cyclicalPeakRisk": false,
+      "promoterPledgeRedFlag": false,
+      "promoterPledgePct": 0,
+      "earningsShockRedFlag": false,
+      "latestQuarterlyNetProfitYoY": 16.5,
+      "fundamentalFloorFailed": false,
+      "highSlippageRisk": false,
+      "bidAskSpreadPct": 0.15948963317384596,
+      "staleFilingRedFlag": true,
+      "filingFreshnessDays": 206
+    },
+    "execution": {
+      "status": "READY_TO_BUY",
+      "ltp": 125.4,
+      "stopLoss": 122.7,
+      "target": 135.43200000000002,
+      "maxEntry": 126.944,
+      "minimumRR": 2,
+      "twentyDayTurnoverCr": 15.09,
+      "circuitLower": 100.3,
+      "circuitUpper": 150.5,
+      "distanceToMaxEntryPct": -1.2162843458532873,
+      "bidAskSpreadPct": 0.15948963317384596,
+      "highSlippageRisk": false,
+      "antiStopCompressionApplied": true,
+      "minAllowedStopDistance": 2.699999999999998
+    },
+    "evaluatedAt": "2026-09-23T09:41:14.781Z"
+  }
+}

@@ -1,0 +1,3072 @@
+[
+  {
+    "symbol": "RELIANCE",
+    "companyName": "Reliance Industries Limited",
+    "sector": "INDUSTRIAL",
+    "instrumentType": "EQUITY",
+    "dataSource": "DEMO",
+    "ltp": 2950.4,
+    "atr14": 74.24,
+    "sma50": 3283.36,
+    "sma100": 3356.1,
+    "ema200": 3393.21,
+    "high52W": 4033.02,
+    "low52W": 2938.56,
+    "swingLow10": 2938.56,
+    "swingHigh10": 3250.86,
+    "swingLow20": 2938.56,
+    "swingHigh20": 3616.91,
+    "supportCandidates": [
+      {
+        "type": "10-Day Swing Low",
+        "price": 2938.56,
+        "distancePct": -0.4,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Most recent short-term price floor",
+        "isOverhead": false
+      },
+      {
+        "type": "52-Week Low Floor",
+        "price": 2938.56,
+        "distancePct": -0.4,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Absolute multi-month cyclical floor over 250 bars",
+        "isOverhead": false
+      }
+    ],
+    "resistanceCandidates": [
+      {
+        "type": "Overhead Reaction Cluster",
+        "price": 3029.89,
+        "zoneLow": 2975.9,
+        "zoneHigh": 3063.73,
+        "distancePct": 2.69,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "4 historical pivot rejections in zone ₹2975.9 - ₹3063.73",
+        "isOverhead": true
+      },
+      {
+        "type": "Overhead Reaction Cluster",
+        "price": 3155.5,
+        "zoneLow": 3155.45,
+        "zoneHigh": 3155.55,
+        "distancePct": 6.95,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "2 historical pivot rejections in zone ₹3155.45 - ₹3155.55",
+        "isOverhead": true
+      },
+      {
+        "type": "50-DMA (Overhead Resistance)",
+        "price": 3283.36,
+        "distancePct": 11.29,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Price below 50-DMA; serves as overhead intermediate resistance",
+        "isOverhead": true
+      },
+      {
+        "type": "100-DMA (Overhead Resistance)",
+        "price": 3356.1,
+        "distancePct": 13.75,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Price below 100-DMA; serves as intermediate overhead resistance",
+        "isOverhead": true
+      },
+      {
+        "type": "200-EMA (Major Overhead Ceiling)",
+        "price": 3393.21,
+        "distancePct": 15.01,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Price below 200-EMA; major macro trendline ceiling",
+        "isOverhead": true
+      },
+      {
+        "type": "52-Week High (Major Overhead Ceiling)",
+        "price": 4033.02,
+        "distancePct": 36.69,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "52-Week High overhead supply barrier",
+        "isOverhead": true
+      }
+    ],
+    "pivots": [
+      {
+        "index": 24,
+        "date": "2026-08-30",
+        "price": 3658.1993580594867,
+        "type": "HIGH",
+        "volume": 4604732,
+        "volVsAvg": 0.98,
+        "ageDays": 24
+      },
+      {
+        "index": 42,
+        "date": "2026-08-12",
+        "price": 3028.0717141362647,
+        "type": "LOW",
+        "volume": 5570808,
+        "volVsAvg": 1.18,
+        "ageDays": 42
+      },
+      {
+        "index": 62,
+        "date": "2026-07-23",
+        "price": 3740.7117328429567,
+        "type": "HIGH",
+        "volume": 5019773,
+        "volVsAvg": 1.06,
+        "ageDays": 62
+      },
+      {
+        "index": 84,
+        "date": "2026-07-01",
+        "price": 3051.8677137911436,
+        "type": "LOW",
+        "volume": 3725545,
+        "volVsAvg": 0.79,
+        "ageDays": 84
+      },
+      {
+        "index": 104,
+        "date": "2026-06-11",
+        "price": 3846.786817091378,
+        "type": "HIGH",
+        "volume": 5428608,
+        "volVsAvg": 1.15,
+        "ageDays": 104
+      },
+      {
+        "index": 107,
+        "date": "2026-06-08",
+        "price": 3842.8059804613163,
+        "type": "HIGH",
+        "volume": 5009984,
+        "volVsAvg": 1.06,
+        "ageDays": 107
+      },
+      {
+        "index": 126,
+        "date": "2026-05-20",
+        "price": 2975.8955423321345,
+        "type": "LOW",
+        "volume": 4800201,
+        "volVsAvg": 1.02,
+        "ageDays": 126
+      },
+      {
+        "index": 144,
+        "date": "2026-05-02",
+        "price": 3698.231397307132,
+        "type": "HIGH",
+        "volume": 5114469,
+        "volVsAvg": 1.08,
+        "ageDays": 144
+      },
+      {
+        "index": 149,
+        "date": "2026-04-27",
+        "price": 3718.1706413291954,
+        "type": "HIGH",
+        "volume": 3936480,
+        "volVsAvg": 0.83,
+        "ageDays": 149
+      },
+      {
+        "index": 166,
+        "date": "2026-04-10",
+        "price": 3063.7338701614012,
+        "type": "LOW",
+        "volume": 4418248,
+        "volVsAvg": 0.94,
+        "ageDays": 166
+      },
+      {
+        "index": 186,
+        "date": "2026-03-21",
+        "price": 3799.4941749120694,
+        "type": "HIGH",
+        "volume": 5390273,
+        "volVsAvg": 1.14,
+        "ageDays": 186
+      },
+      {
+        "index": 190,
+        "date": "2026-03-17",
+        "price": 3809.250835063728,
+        "type": "HIGH",
+        "volume": 5035809,
+        "volVsAvg": 1.07,
+        "ageDays": 190
+      },
+      {
+        "index": 209,
+        "date": "2026-02-26",
+        "price": 3155.551497783605,
+        "type": "LOW",
+        "volume": 5435247,
+        "volVsAvg": 1.15,
+        "ageDays": 209
+      },
+      {
+        "index": 212,
+        "date": "2026-02-23",
+        "price": 3155.4547831573027,
+        "type": "LOW",
+        "volume": 4756319,
+        "volVsAvg": 1.01,
+        "ageDays": 212
+      },
+      {
+        "index": 231,
+        "date": "2026-02-04",
+        "price": 4033.016853084572,
+        "type": "HIGH",
+        "volume": 3966398,
+        "volVsAvg": 0.84,
+        "ageDays": 231
+      },
+      {
+        "index": 250,
+        "date": "2026-01-16",
+        "price": 3280.7362641713717,
+        "type": "LOW",
+        "volume": 3617004,
+        "volVsAvg": 0.77,
+        "ageDays": 250
+      }
+    ]
+  },
+  {
+    "symbol": "TCS",
+    "companyName": "Tata Consultancy Services Limited",
+    "sector": "INDUSTRIAL",
+    "instrumentType": "EQUITY",
+    "dataSource": "DEMO",
+    "ltp": 4120,
+    "atr14": 112.75,
+    "sma50": 4656.35,
+    "sma100": 4885.8,
+    "ema200": 5307.88,
+    "high52W": 7088.19,
+    "low52W": 4092.57,
+    "swingLow10": 4092.57,
+    "swingHigh10": 4576.63,
+    "swingLow20": 4092.57,
+    "swingHigh20": 5106.57,
+    "supportCandidates": [
+      {
+        "type": "10-Day Swing Low",
+        "price": 4092.57,
+        "distancePct": -0.67,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Most recent short-term price floor",
+        "isOverhead": false
+      },
+      {
+        "type": "52-Week Low Floor",
+        "price": 4092.57,
+        "distancePct": -0.67,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Absolute multi-month cyclical floor over 250 bars",
+        "isOverhead": false
+      }
+    ],
+    "resistanceCandidates": [
+      {
+        "type": "50-DMA (Overhead Resistance)",
+        "price": 4656.35,
+        "distancePct": 13.02,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Price below 50-DMA; serves as overhead intermediate resistance",
+        "isOverhead": true
+      },
+      {
+        "type": "100-DMA (Overhead Resistance)",
+        "price": 4885.8,
+        "distancePct": 18.59,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Price below 100-DMA; serves as intermediate overhead resistance",
+        "isOverhead": true
+      },
+      {
+        "type": "200-EMA (Major Overhead Ceiling)",
+        "price": 5307.88,
+        "distancePct": 28.83,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Price below 200-EMA; major macro trendline ceiling",
+        "isOverhead": true
+      },
+      {
+        "type": "Overhead Reaction Cluster",
+        "price": 5903.29,
+        "zoneLow": 5899.6,
+        "zoneHigh": 5906.98,
+        "distancePct": 43.28,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "2 historical pivot rejections in zone ₹5899.6 - ₹5906.98",
+        "isOverhead": true
+      },
+      {
+        "type": "52-Week High (Major Overhead Ceiling)",
+        "price": 7088.19,
+        "distancePct": 72.04,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "52-Week High overhead supply barrier",
+        "isOverhead": true
+      }
+    ],
+    "pivots": [
+      {
+        "index": 21,
+        "date": "2026-09-02",
+        "price": 5164.566229125362,
+        "type": "HIGH",
+        "volume": 1799460,
+        "volVsAvg": 0.93,
+        "ageDays": 21
+      },
+      {
+        "index": 40,
+        "date": "2026-08-14",
+        "price": 4323.264730134926,
+        "type": "LOW",
+        "volume": 1690285,
+        "volVsAvg": 0.87,
+        "ageDays": 40
+      },
+      {
+        "index": 61,
+        "date": "2026-07-24",
+        "price": 5554.7173432245945,
+        "type": "HIGH",
+        "volume": 1801093,
+        "volVsAvg": 0.93,
+        "ageDays": 61
+      },
+      {
+        "index": 65,
+        "date": "2026-07-20",
+        "price": 5575.61633590892,
+        "type": "HIGH",
+        "volume": 1955026,
+        "volVsAvg": 1.01,
+        "ageDays": 65
+      },
+      {
+        "index": 84,
+        "date": "2026-07-01",
+        "price": 4601.146728548358,
+        "type": "LOW",
+        "volume": 1933644,
+        "volVsAvg": 1,
+        "ageDays": 84
+      },
+      {
+        "index": 104,
+        "date": "2026-06-11",
+        "price": 5950.818480790714,
+        "type": "HIGH",
+        "volume": 1800099,
+        "volVsAvg": 0.93,
+        "ageDays": 104
+      },
+      {
+        "index": 107,
+        "date": "2026-06-08",
+        "price": 5935.676309167071,
+        "type": "HIGH",
+        "volume": 2079532,
+        "volVsAvg": 1.08,
+        "ageDays": 107
+      },
+      {
+        "index": 124,
+        "date": "2026-05-22",
+        "price": 4956.590779882981,
+        "type": "LOW",
+        "volume": 1993657,
+        "volVsAvg": 1.03,
+        "ageDays": 124
+      },
+      {
+        "index": 146,
+        "date": "2026-04-30",
+        "price": 6316.868686268247,
+        "type": "HIGH",
+        "volume": 1960164,
+        "volVsAvg": 1.01,
+        "ageDays": 146
+      },
+      {
+        "index": 149,
+        "date": "2026-04-27",
+        "price": 6300.9717751174285,
+        "type": "HIGH",
+        "volume": 2264175,
+        "volVsAvg": 1.17,
+        "ageDays": 149
+      },
+      {
+        "index": 165,
+        "date": "2026-04-11",
+        "price": 5246.159598706972,
+        "type": "LOW",
+        "volume": 1524610,
+        "volVsAvg": 0.79,
+        "ageDays": 165
+      },
+      {
+        "index": 190,
+        "date": "2026-03-17",
+        "price": 6767.80225029752,
+        "type": "HIGH",
+        "volume": 2185678,
+        "volVsAvg": 1.13,
+        "ageDays": 190
+      },
+      {
+        "index": 207,
+        "date": "2026-02-28",
+        "price": 5639.256221667819,
+        "type": "LOW",
+        "volume": 1893769,
+        "volVsAvg": 0.98,
+        "ageDays": 207
+      },
+      {
+        "index": 231,
+        "date": "2026-02-04",
+        "price": 7088.194864332579,
+        "type": "HIGH",
+        "volume": 2104920,
+        "volVsAvg": 1.09,
+        "ageDays": 231
+      },
+      {
+        "index": 250,
+        "date": "2026-01-16",
+        "price": 5899.598889884491,
+        "type": "LOW",
+        "volume": 2311620,
+        "volVsAvg": 1.2,
+        "ageDays": 250
+      },
+      {
+        "index": 253,
+        "date": "2026-01-13",
+        "price": 5906.982456227957,
+        "type": "LOW",
+        "volume": 2160836,
+        "volVsAvg": 1.12,
+        "ageDays": 253
+      }
+    ]
+  },
+  {
+    "symbol": "HDFCBANK",
+    "companyName": "HDFC Bank Limited",
+    "sector": "COMMERCIAL_BANK",
+    "instrumentType": "BANK",
+    "dataSource": "DEMO",
+    "ltp": 1680,
+    "atr14": 46.73,
+    "sma50": 1896.2,
+    "sma100": 1932.11,
+    "ema200": 2030.57,
+    "high52W": 2518.06,
+    "low52W": 1675.78,
+    "swingLow10": 1675.78,
+    "swingHigh10": 1868.73,
+    "swingLow20": 1675.78,
+    "swingHigh20": 2112.12,
+    "supportCandidates": [
+      {
+        "type": "10-Day Swing Low",
+        "price": 1675.78,
+        "distancePct": -0.25,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Most recent short-term price floor",
+        "isOverhead": false
+      },
+      {
+        "type": "52-Week Low Floor",
+        "price": 1675.78,
+        "distancePct": -0.25,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Absolute multi-month cyclical floor over 250 bars",
+        "isOverhead": false
+      }
+    ],
+    "resistanceCandidates": [
+      {
+        "type": "Overhead Reaction Cluster",
+        "price": 1756.54,
+        "zoneLow": 1743.49,
+        "zoneHigh": 1770.73,
+        "distancePct": 4.56,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "3 historical pivot rejections in zone ₹1743.49 - ₹1770.73",
+        "isOverhead": true
+      },
+      {
+        "type": "Overhead Reaction Cluster",
+        "price": 1811.06,
+        "zoneLow": 1801.3,
+        "zoneHigh": 1820.83,
+        "distancePct": 7.8,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "2 historical pivot rejections in zone ₹1801.3 - ₹1820.83",
+        "isOverhead": true
+      },
+      {
+        "type": "50-DMA (Overhead Resistance)",
+        "price": 1896.2,
+        "distancePct": 12.87,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Price below 50-DMA; serves as overhead intermediate resistance",
+        "isOverhead": true
+      },
+      {
+        "type": "100-DMA (Overhead Resistance)",
+        "price": 1932.11,
+        "distancePct": 15.01,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Price below 100-DMA; serves as intermediate overhead resistance",
+        "isOverhead": true
+      },
+      {
+        "type": "200-EMA (Major Overhead Ceiling)",
+        "price": 2030.57,
+        "distancePct": 20.87,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Price below 200-EMA; major macro trendline ceiling",
+        "isOverhead": true
+      },
+      {
+        "type": "52-Week High (Major Overhead Ceiling)",
+        "price": 2518.06,
+        "distancePct": 49.88,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "52-Week High overhead supply barrier",
+        "isOverhead": true
+      }
+    ],
+    "pivots": [
+      {
+        "index": 21,
+        "date": "2026-09-02",
+        "price": 2137.763787550695,
+        "type": "HIGH",
+        "volume": 13463682,
+        "volVsAvg": 1.02,
+        "ageDays": 21
+      },
+      {
+        "index": 42,
+        "date": "2026-08-12",
+        "price": 1743.4885808128058,
+        "type": "LOW",
+        "volume": 15690535,
+        "volVsAvg": 1.19,
+        "ageDays": 42
+      },
+      {
+        "index": 46,
+        "date": "2026-08-08",
+        "price": 1755.4069939071776,
+        "type": "LOW",
+        "volume": 12779123,
+        "volVsAvg": 0.97,
+        "ageDays": 46
+      },
+      {
+        "index": 62,
+        "date": "2026-07-23",
+        "price": 2152.38438464761,
+        "type": "HIGH",
+        "volume": 13484195,
+        "volVsAvg": 1.03,
+        "ageDays": 62
+      },
+      {
+        "index": 85,
+        "date": "2026-06-30",
+        "price": 1770.7260087170744,
+        "type": "LOW",
+        "volume": 11589761,
+        "volVsAvg": 0.88,
+        "ageDays": 85
+      },
+      {
+        "index": 104,
+        "date": "2026-06-11",
+        "price": 2223.41126507806,
+        "type": "HIGH",
+        "volume": 13810054,
+        "volVsAvg": 1.05,
+        "ageDays": 104
+      },
+      {
+        "index": 125,
+        "date": "2026-05-21",
+        "price": 1801.3008913610818,
+        "type": "LOW",
+        "volume": 12728749,
+        "volVsAvg": 0.97,
+        "ageDays": 125
+      },
+      {
+        "index": 128,
+        "date": "2026-05-18",
+        "price": 1820.8256010282857,
+        "type": "LOW",
+        "volume": 15566846,
+        "volVsAvg": 1.19,
+        "ageDays": 128
+      },
+      {
+        "index": 148,
+        "date": "2026-04-28",
+        "price": 2314.2818878308426,
+        "type": "HIGH",
+        "volume": 12307563,
+        "volVsAvg": 0.94,
+        "ageDays": 148
+      },
+      {
+        "index": 166,
+        "date": "2026-04-10",
+        "price": 1936.5942246291117,
+        "type": "LOW",
+        "volume": 16217497,
+        "volVsAvg": 1.23,
+        "ageDays": 166
+      },
+      {
+        "index": 188,
+        "date": "2026-03-19",
+        "price": 2474.323822128789,
+        "type": "HIGH",
+        "volume": 12040120,
+        "volVsAvg": 0.92,
+        "ageDays": 188
+      },
+      {
+        "index": 211,
+        "date": "2026-02-24",
+        "price": 2037.4719247077505,
+        "type": "LOW",
+        "volume": 15870344,
+        "volVsAvg": 1.21,
+        "ageDays": 211
+      },
+      {
+        "index": 231,
+        "date": "2026-02-04",
+        "price": 2518.0630525354604,
+        "type": "HIGH",
+        "volume": 13334682,
+        "volVsAvg": 1.02,
+        "ageDays": 231
+      },
+      {
+        "index": 250,
+        "date": "2026-01-16",
+        "price": 2126.2441612996518,
+        "type": "LOW",
+        "volume": 13345507,
+        "volVsAvg": 1.02,
+        "ageDays": 250
+      }
+    ]
+  },
+  {
+    "symbol": "BAJFINANCE",
+    "companyName": "Bajaj Finance Limited",
+    "sector": "COMMERCIAL_BANK",
+    "instrumentType": "BANK",
+    "dataSource": "DEMO",
+    "ltp": 7240,
+    "atr14": 214.01,
+    "sma50": 8363.07,
+    "sma100": 8561.15,
+    "ema200": 9288.82,
+    "high52W": 12544.22,
+    "low52W": 7205.37,
+    "swingLow10": 7205.37,
+    "swingHigh10": 8129.62,
+    "swingLow20": 7205.37,
+    "swingHigh20": 9393.82,
+    "supportCandidates": [
+      {
+        "type": "10-Day Swing Low",
+        "price": 7205.37,
+        "distancePct": -0.48,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Most recent short-term price floor",
+        "isOverhead": false
+      },
+      {
+        "type": "52-Week Low Floor",
+        "price": 7205.37,
+        "distancePct": -0.48,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Absolute multi-month cyclical floor over 250 bars",
+        "isOverhead": false
+      }
+    ],
+    "resistanceCandidates": [
+      {
+        "type": "Overhead Reaction Cluster",
+        "price": 7729.69,
+        "zoneLow": 7680.68,
+        "zoneHigh": 7778.7,
+        "distancePct": 6.76,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "2 historical pivot rejections in zone ₹7680.68 - ₹7778.7",
+        "isOverhead": true
+      },
+      {
+        "type": "50-DMA (Overhead Resistance)",
+        "price": 8363.07,
+        "distancePct": 15.51,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Price below 50-DMA; serves as overhead intermediate resistance",
+        "isOverhead": true
+      },
+      {
+        "type": "Overhead Reaction Cluster",
+        "price": 8442,
+        "zoneLow": 8421.07,
+        "zoneHigh": 8462.93,
+        "distancePct": 16.6,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "2 historical pivot rejections in zone ₹8421.07 - ₹8462.93",
+        "isOverhead": true
+      },
+      {
+        "type": "100-DMA (Overhead Resistance)",
+        "price": 8561.15,
+        "distancePct": 18.25,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Price below 100-DMA; serves as intermediate overhead resistance",
+        "isOverhead": true
+      },
+      {
+        "type": "200-EMA (Major Overhead Ceiling)",
+        "price": 9288.82,
+        "distancePct": 28.3,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Price below 200-EMA; major macro trendline ceiling",
+        "isOverhead": true
+      },
+      {
+        "type": "Overhead Reaction Cluster",
+        "price": 9625.46,
+        "zoneLow": 9607.4,
+        "zoneHigh": 9643.51,
+        "distancePct": 32.95,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "2 historical pivot rejections in zone ₹9607.4 - ₹9643.51",
+        "isOverhead": true
+      },
+      {
+        "type": "Overhead Reaction Cluster",
+        "price": 10548.48,
+        "zoneLow": 10472.45,
+        "zoneHigh": 10624.5,
+        "distancePct": 45.7,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "2 historical pivot rejections in zone ₹10472.45 - ₹10624.5",
+        "isOverhead": true
+      },
+      {
+        "type": "52-Week High (Major Overhead Ceiling)",
+        "price": 12544.22,
+        "distancePct": 73.26,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "52-Week High overhead supply barrier",
+        "isOverhead": true
+      }
+    ],
+    "pivots": [
+      {
+        "index": 20,
+        "date": "2026-09-03",
+        "price": 9405.301888587126,
+        "type": "HIGH",
+        "volume": 1125800,
+        "volVsAvg": 0.99,
+        "ageDays": 20
+      },
+      {
+        "index": 25,
+        "date": "2026-08-29",
+        "price": 9378.809341821881,
+        "type": "HIGH",
+        "volume": 949185,
+        "volVsAvg": 0.83,
+        "ageDays": 25
+      },
+      {
+        "index": 42,
+        "date": "2026-08-12",
+        "price": 7680.677544690259,
+        "type": "LOW",
+        "volume": 1266240,
+        "volVsAvg": 1.11,
+        "ageDays": 42
+      },
+      {
+        "index": 63,
+        "date": "2026-07-22",
+        "price": 9568.554093449075,
+        "type": "HIGH",
+        "volume": 1313622,
+        "volVsAvg": 1.15,
+        "ageDays": 63
+      },
+      {
+        "index": 66,
+        "date": "2026-07-19",
+        "price": 9524.954921885781,
+        "type": "HIGH",
+        "volume": 1427227,
+        "volVsAvg": 1.25,
+        "ageDays": 66
+      },
+      {
+        "index": 83,
+        "date": "2026-07-02",
+        "price": 7778.696519317216,
+        "type": "LOW",
+        "volume": 1016846,
+        "volVsAvg": 0.89,
+        "ageDays": 83
+      },
+      {
+        "index": 106,
+        "date": "2026-06-09",
+        "price": 10000.948544278335,
+        "type": "HIGH",
+        "volume": 1168461,
+        "volVsAvg": 1.02,
+        "ageDays": 106
+      },
+      {
+        "index": 123,
+        "date": "2026-05-23",
+        "price": 8421.07417646169,
+        "type": "LOW",
+        "volume": 1418973,
+        "volVsAvg": 1.24,
+        "ageDays": 123
+      },
+      {
+        "index": 127,
+        "date": "2026-05-19",
+        "price": 8462.925266962455,
+        "type": "LOW",
+        "volume": 1070691,
+        "volVsAvg": 0.94,
+        "ageDays": 127
+      },
+      {
+        "index": 145,
+        "date": "2026-05-01",
+        "price": 10741.210983874744,
+        "type": "HIGH",
+        "volume": 1065350,
+        "volVsAvg": 0.93,
+        "ageDays": 145
+      },
+      {
+        "index": 147,
+        "date": "2026-04-29",
+        "price": 10624.502020470403,
+        "type": "LOW",
+        "volume": 1128113,
+        "volVsAvg": 0.99,
+        "ageDays": 147
+      },
+      {
+        "index": 148,
+        "date": "2026-04-28",
+        "price": 10764.60523642985,
+        "type": "HIGH",
+        "volume": 1318626,
+        "volVsAvg": 1.16,
+        "ageDays": 148
+      },
+      {
+        "index": 167,
+        "date": "2026-04-09",
+        "price": 8965.205492167197,
+        "type": "LOW",
+        "volume": 1080135,
+        "volVsAvg": 0.95,
+        "ageDays": 167
+      },
+      {
+        "index": 190,
+        "date": "2026-03-17",
+        "price": 11323.913861356114,
+        "type": "LOW",
+        "volume": 965609,
+        "volVsAvg": 0.85,
+        "ageDays": 190
+      },
+      {
+        "index": 190,
+        "date": "2026-03-17",
+        "price": 11524.739782557492,
+        "type": "HIGH",
+        "volume": 965609,
+        "volVsAvg": 0.85,
+        "ageDays": 190
+      },
+      {
+        "index": 205,
+        "date": "2026-03-02",
+        "price": 9643.51219583591,
+        "type": "LOW",
+        "volume": 1335138,
+        "volVsAvg": 1.17,
+        "ageDays": 205
+      },
+      {
+        "index": 208,
+        "date": "2026-02-27",
+        "price": 9607.403482251388,
+        "type": "LOW",
+        "volume": 937299,
+        "volVsAvg": 0.82,
+        "ageDays": 208
+      },
+      {
+        "index": 229,
+        "date": "2026-02-06",
+        "price": 12544.22179207126,
+        "type": "HIGH",
+        "volume": 1229981,
+        "volVsAvg": 1.08,
+        "ageDays": 229
+      },
+      {
+        "index": 234,
+        "date": "2026-02-01",
+        "price": 12458.208909081111,
+        "type": "HIGH",
+        "volume": 1203879,
+        "volVsAvg": 1.05,
+        "ageDays": 234
+      },
+      {
+        "index": 249,
+        "date": "2026-01-17",
+        "price": 10472.450220979043,
+        "type": "LOW",
+        "volume": 1358685,
+        "volVsAvg": 1.19,
+        "ageDays": 249
+      }
+    ]
+  },
+  {
+    "symbol": "FINCABLES",
+    "companyName": "Finolex Cables Limited",
+    "sector": "INDUSTRIAL",
+    "instrumentType": "EQUITY",
+    "dataSource": "FALLBACK",
+    "ltp": 816.85,
+    "atr14": 15.63,
+    "sma50": 866.45,
+    "sma100": 868.71,
+    "ema200": 878.67,
+    "high52W": 1013.24,
+    "low52W": 784.86,
+    "swingLow10": 810.34,
+    "swingHigh10": 875.43,
+    "swingLow20": 810.34,
+    "swingHigh20": 951.51,
+    "supportCandidates": [
+      {
+        "type": "10-Day Swing Low",
+        "price": 810.34,
+        "distancePct": -0.8,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Most recent short-term price floor",
+        "isOverhead": false
+      },
+      {
+        "type": "Repeated Reaction Zone",
+        "price": 793.4,
+        "zoneLow": 784.86,
+        "zoneHigh": 800.31,
+        "distancePct": -2.87,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "6 historical pivot bounces in zone ₹784.86 - ₹800.31",
+        "isOverhead": false
+      },
+      {
+        "type": "52-Week Low Floor",
+        "price": 784.86,
+        "distancePct": -3.92,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Absolute multi-month cyclical floor over 250 bars",
+        "isOverhead": false
+      }
+    ],
+    "resistanceCandidates": [
+      {
+        "type": "Overhead Reaction Cluster",
+        "price": 830.16,
+        "zoneLow": 829.91,
+        "zoneHigh": 830.42,
+        "distancePct": 1.63,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "2 historical pivot rejections in zone ₹829.91 - ₹830.42",
+        "isOverhead": true
+      },
+      {
+        "type": "50-DMA (Overhead Resistance)",
+        "price": 866.45,
+        "distancePct": 6.07,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Price below 50-DMA; serves as overhead intermediate resistance",
+        "isOverhead": true
+      },
+      {
+        "type": "100-DMA (Overhead Resistance)",
+        "price": 868.71,
+        "distancePct": 6.35,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Price below 100-DMA; serves as intermediate overhead resistance",
+        "isOverhead": true
+      },
+      {
+        "type": "200-EMA (Major Overhead Ceiling)",
+        "price": 878.67,
+        "distancePct": 7.57,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Price below 200-EMA; major macro trendline ceiling",
+        "isOverhead": true
+      },
+      {
+        "type": "Overhead Reaction Cluster",
+        "price": 879.8,
+        "zoneLow": 879.73,
+        "zoneHigh": 879.86,
+        "distancePct": 7.71,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "2 historical pivot rejections in zone ₹879.73 - ₹879.86",
+        "isOverhead": true
+      },
+      {
+        "type": "52-Week High (Major Overhead Ceiling)",
+        "price": 1013.24,
+        "distancePct": 24.04,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "52-Week High overhead supply barrier",
+        "isOverhead": true
+      }
+    ],
+    "pivots": [
+      {
+        "index": 19,
+        "date": "2026-09-04",
+        "price": 951.5120444587665,
+        "type": "HIGH",
+        "volume": 1619463,
+        "volVsAvg": 1.04,
+        "ageDays": 19
+      },
+      {
+        "index": 22,
+        "date": "2026-09-01",
+        "price": 932.6631255137128,
+        "type": "LOW",
+        "volume": 1404085,
+        "volVsAvg": 0.9,
+        "ageDays": 22
+      },
+      {
+        "index": 43,
+        "date": "2026-08-11",
+        "price": 784.8632773028551,
+        "type": "LOW",
+        "volume": 1534807,
+        "volVsAvg": 0.98,
+        "ageDays": 43
+      },
+      {
+        "index": 64,
+        "date": "2026-07-21",
+        "price": 959.4788391551011,
+        "type": "HIGH",
+        "volume": 1321977,
+        "volVsAvg": 0.85,
+        "ageDays": 64
+      },
+      {
+        "index": 85,
+        "date": "2026-06-30",
+        "price": 793.290138771323,
+        "type": "LOW",
+        "volume": 1897009,
+        "volVsAvg": 1.21,
+        "ageDays": 85
+      },
+      {
+        "index": 88,
+        "date": "2026-06-27",
+        "price": 794.1106720280527,
+        "type": "LOW",
+        "volume": 1919967,
+        "volVsAvg": 1.23,
+        "ageDays": 88
+      },
+      {
+        "index": 104,
+        "date": "2026-06-11",
+        "price": 937.2589495840064,
+        "type": "HIGH",
+        "volume": 1432126,
+        "volVsAvg": 0.92,
+        "ageDays": 104
+      },
+      {
+        "index": 125,
+        "date": "2026-05-21",
+        "price": 800.3120667444798,
+        "type": "LOW",
+        "volume": 1738934,
+        "volVsAvg": 1.11,
+        "ageDays": 125
+      },
+      {
+        "index": 147,
+        "date": "2026-04-29",
+        "price": 932.0348371825942,
+        "type": "HIGH",
+        "volume": 1303052,
+        "volVsAvg": 0.83,
+        "ageDays": 147
+      },
+      {
+        "index": 150,
+        "date": "2026-04-26",
+        "price": 930.9196957158271,
+        "type": "HIGH",
+        "volume": 1896092,
+        "volVsAvg": 1.21,
+        "ageDays": 150
+      },
+      {
+        "index": 165,
+        "date": "2026-04-11",
+        "price": 796.3061323039955,
+        "type": "LOW",
+        "volume": 1831046,
+        "volVsAvg": 1.17,
+        "ageDays": 165
+      },
+      {
+        "index": 166,
+        "date": "2026-04-10",
+        "price": 807.920219858163,
+        "type": "HIGH",
+        "volume": 1584169,
+        "volVsAvg": 1.01,
+        "ageDays": 166
+      },
+      {
+        "index": 170,
+        "date": "2026-04-06",
+        "price": 791.4991283959641,
+        "type": "LOW",
+        "volume": 1431334,
+        "volVsAvg": 0.92,
+        "ageDays": 170
+      },
+      {
+        "index": 187,
+        "date": "2026-03-20",
+        "price": 957.5015051703125,
+        "type": "HIGH",
+        "volume": 1844611,
+        "volVsAvg": 1.18,
+        "ageDays": 187
+      },
+      {
+        "index": 207,
+        "date": "2026-02-28",
+        "price": 830.415641910864,
+        "type": "LOW",
+        "volume": 1745623,
+        "volVsAvg": 1.12,
+        "ageDays": 207
+      },
+      {
+        "index": 210,
+        "date": "2026-02-25",
+        "price": 829.9126592957875,
+        "type": "LOW",
+        "volume": 1789763,
+        "volVsAvg": 1.14,
+        "ageDays": 210
+      },
+      {
+        "index": 228,
+        "date": "2026-02-07",
+        "price": 1013.2368871862702,
+        "type": "HIGH",
+        "volume": 1449140,
+        "volVsAvg": 0.93,
+        "ageDays": 228
+      },
+      {
+        "index": 249,
+        "date": "2026-01-17",
+        "price": 879.8580781813523,
+        "type": "LOW",
+        "volume": 1346146,
+        "volVsAvg": 0.86,
+        "ageDays": 249
+      },
+      {
+        "index": 252,
+        "date": "2026-01-14",
+        "price": 879.7323743018926,
+        "type": "LOW",
+        "volume": 1837299,
+        "volVsAvg": 1.17,
+        "ageDays": 252
+      }
+    ]
+  },
+  {
+    "symbol": "KPITTECH",
+    "companyName": "KPIT Technologies Limited",
+    "sector": "INDUSTRIAL",
+    "instrumentType": "EQUITY",
+    "dataSource": "FALLBACK",
+    "ltp": 1650,
+    "atr14": 36.35,
+    "sma50": 1772.38,
+    "sma100": 1829.59,
+    "ema200": 1911.85,
+    "high52W": 2311.31,
+    "low52W": 1621.52,
+    "swingLow10": 1621.52,
+    "swingHigh10": 1772.87,
+    "swingLow20": 1621.52,
+    "swingHigh20": 1923.05,
+    "supportCandidates": [
+      {
+        "type": "10-Day Swing Low",
+        "price": 1621.52,
+        "distancePct": -1.73,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Most recent short-term price floor",
+        "isOverhead": false
+      },
+      {
+        "type": "52-Week Low Floor",
+        "price": 1621.52,
+        "distancePct": -1.73,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Absolute multi-month cyclical floor over 250 bars",
+        "isOverhead": false
+      }
+    ],
+    "resistanceCandidates": [
+      {
+        "type": "50-DMA (Overhead Resistance)",
+        "price": 1772.38,
+        "distancePct": 7.42,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Price below 50-DMA; serves as overhead intermediate resistance",
+        "isOverhead": true
+      },
+      {
+        "type": "Overhead Reaction Cluster",
+        "price": 1784.76,
+        "zoneLow": 1777.44,
+        "zoneHigh": 1795.69,
+        "distancePct": 8.17,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "3 historical pivot rejections in zone ₹1777.44 - ₹1795.69",
+        "isOverhead": true
+      },
+      {
+        "type": "100-DMA (Overhead Resistance)",
+        "price": 1829.59,
+        "distancePct": 10.88,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Price below 100-DMA; serves as intermediate overhead resistance",
+        "isOverhead": true
+      },
+      {
+        "type": "200-EMA (Major Overhead Ceiling)",
+        "price": 1911.85,
+        "distancePct": 15.87,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Price below 200-EMA; major macro trendline ceiling",
+        "isOverhead": true
+      },
+      {
+        "type": "Overhead Reaction Cluster",
+        "price": 2024.9,
+        "zoneLow": 2013.58,
+        "zoneHigh": 2036.21,
+        "distancePct": 22.72,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "2 historical pivot rejections in zone ₹2013.58 - ₹2036.21",
+        "isOverhead": true
+      },
+      {
+        "type": "52-Week High (Major Overhead Ceiling)",
+        "price": 2311.31,
+        "distancePct": 40.08,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "52-Week High overhead supply barrier",
+        "isOverhead": true
+      }
+    ],
+    "pivots": [
+      {
+        "index": 22,
+        "date": "2026-09-01",
+        "price": 1935.1441516809168,
+        "type": "HIGH",
+        "volume": 1776530,
+        "volVsAvg": 1.13,
+        "ageDays": 22
+      },
+      {
+        "index": 42,
+        "date": "2026-08-12",
+        "price": 1644.375148161015,
+        "type": "LOW",
+        "volume": 1343710,
+        "volVsAvg": 0.85,
+        "ageDays": 42
+      },
+      {
+        "index": 61,
+        "date": "2026-07-24",
+        "price": 1952.4898370139938,
+        "type": "LOW",
+        "volume": 1862982,
+        "volVsAvg": 1.18,
+        "ageDays": 61
+      },
+      {
+        "index": 62,
+        "date": "2026-07-23",
+        "price": 1991.3948610050372,
+        "type": "HIGH",
+        "volume": 1280012,
+        "volVsAvg": 0.81,
+        "ageDays": 62
+      },
+      {
+        "index": 65,
+        "date": "2026-07-20",
+        "price": 1996.3705685053758,
+        "type": "HIGH",
+        "volume": 1758356,
+        "volVsAvg": 1.11,
+        "ageDays": 65
+      },
+      {
+        "index": 79,
+        "date": "2026-07-06",
+        "price": 1777.438412144189,
+        "type": "LOW",
+        "volume": 1539260,
+        "volVsAvg": 0.98,
+        "ageDays": 79
+      },
+      {
+        "index": 83,
+        "date": "2026-07-02",
+        "price": 1781.1658268272931,
+        "type": "LOW",
+        "volume": 1496009,
+        "volVsAvg": 0.95,
+        "ageDays": 83
+      },
+      {
+        "index": 84,
+        "date": "2026-07-01",
+        "price": 1816.8903098592916,
+        "type": "HIGH",
+        "volume": 1870536,
+        "volVsAvg": 1.19,
+        "ageDays": 84
+      },
+      {
+        "index": 87,
+        "date": "2026-06-28",
+        "price": 1795.6884554566323,
+        "type": "LOW",
+        "volume": 1414128,
+        "volVsAvg": 0.9,
+        "ageDays": 87
+      },
+      {
+        "index": 104,
+        "date": "2026-06-11",
+        "price": 2068.884923865588,
+        "type": "HIGH",
+        "volume": 1931288,
+        "volVsAvg": 1.22,
+        "ageDays": 104
+      },
+      {
+        "index": 105,
+        "date": "2026-06-10",
+        "price": 2036.2137140319649,
+        "type": "LOW",
+        "volume": 1870341,
+        "volVsAvg": 1.19,
+        "ageDays": 105
+      },
+      {
+        "index": 107,
+        "date": "2026-06-08",
+        "price": 2064.7575269347417,
+        "type": "HIGH",
+        "volume": 1942635,
+        "volVsAvg": 1.23,
+        "ageDays": 107
+      },
+      {
+        "index": 123,
+        "date": "2026-05-23",
+        "price": 1723.4843904379516,
+        "type": "LOW",
+        "volume": 1918892,
+        "volVsAvg": 1.22,
+        "ageDays": 123
+      },
+      {
+        "index": 146,
+        "date": "2026-04-30",
+        "price": 2187.241689185918,
+        "type": "HIGH",
+        "volume": 1654123,
+        "volVsAvg": 1.05,
+        "ageDays": 146
+      },
+      {
+        "index": 150,
+        "date": "2026-04-26",
+        "price": 2183.512600041376,
+        "type": "HIGH",
+        "volume": 1926291,
+        "volVsAvg": 1.22,
+        "ageDays": 150
+      },
+      {
+        "index": 168,
+        "date": "2026-04-08",
+        "price": 1846.1857190155854,
+        "type": "LOW",
+        "volume": 1325104,
+        "volVsAvg": 0.84,
+        "ageDays": 168
+      },
+      {
+        "index": 188,
+        "date": "2026-03-19",
+        "price": 2223.13466520754,
+        "type": "HIGH",
+        "volume": 1822082,
+        "volVsAvg": 1.15,
+        "ageDays": 188
+      },
+      {
+        "index": 191,
+        "date": "2026-03-16",
+        "price": 2234.322099245304,
+        "type": "HIGH",
+        "volume": 1617739,
+        "volVsAvg": 1.03,
+        "ageDays": 191
+      },
+      {
+        "index": 194,
+        "date": "2026-03-13",
+        "price": 2225.4174884088393,
+        "type": "HIGH",
+        "volume": 1490227,
+        "volVsAvg": 0.94,
+        "ageDays": 194
+      },
+      {
+        "index": 210,
+        "date": "2026-02-25",
+        "price": 1912.323436407502,
+        "type": "LOW",
+        "volume": 1860666,
+        "volVsAvg": 1.18,
+        "ageDays": 210
+      },
+      {
+        "index": 229,
+        "date": "2026-02-06",
+        "price": 2311.3062875368446,
+        "type": "HIGH",
+        "volume": 1573261,
+        "volVsAvg": 1,
+        "ageDays": 229
+      },
+      {
+        "index": 248,
+        "date": "2026-01-18",
+        "price": 2013.5780777820014,
+        "type": "LOW",
+        "volume": 1508847,
+        "volVsAvg": 0.96,
+        "ageDays": 248
+      }
+    ]
+  },
+  {
+    "symbol": "NAVINFLUOR",
+    "companyName": "Navin Fluorine International Limited",
+    "sector": "INDUSTRIAL",
+    "instrumentType": "EQUITY",
+    "dataSource": "FALLBACK",
+    "ltp": 3450,
+    "atr14": 72.53,
+    "sma50": 3692.74,
+    "sma100": 3710.52,
+    "ema200": 3844.32,
+    "high52W": 4438.95,
+    "low52W": 3380.97,
+    "swingLow10": 3431.25,
+    "swingHigh10": 3710.26,
+    "swingLow20": 3431.25,
+    "swingHigh20": 4026.85,
+    "supportCandidates": [
+      {
+        "type": "10-Day Swing Low",
+        "price": 3431.25,
+        "distancePct": -0.54,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Most recent short-term price floor",
+        "isOverhead": false
+      },
+      {
+        "type": "Repeated Reaction Zone",
+        "price": 3384.19,
+        "zoneLow": 3380.97,
+        "zoneHigh": 3385.82,
+        "distancePct": -1.91,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "3 historical pivot bounces in zone ₹3380.97 - ₹3385.82",
+        "isOverhead": false
+      },
+      {
+        "type": "52-Week Low Floor",
+        "price": 3380.97,
+        "distancePct": -2,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Absolute multi-month cyclical floor over 250 bars",
+        "isOverhead": false
+      }
+    ],
+    "resistanceCandidates": [
+      {
+        "type": "50-DMA (Overhead Resistance)",
+        "price": 3692.74,
+        "distancePct": 7.04,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Price below 50-DMA; serves as overhead intermediate resistance",
+        "isOverhead": true
+      },
+      {
+        "type": "100-DMA (Overhead Resistance)",
+        "price": 3710.52,
+        "distancePct": 7.55,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Price below 100-DMA; serves as intermediate overhead resistance",
+        "isOverhead": true
+      },
+      {
+        "type": "Overhead Reaction Cluster",
+        "price": 3763.94,
+        "zoneLow": 3733.12,
+        "zoneHigh": 3797.25,
+        "distancePct": 9.1,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "3 historical pivot rejections in zone ₹3733.12 - ₹3797.25",
+        "isOverhead": true
+      },
+      {
+        "type": "200-EMA (Major Overhead Ceiling)",
+        "price": 3844.32,
+        "distancePct": 11.43,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Price below 200-EMA; major macro trendline ceiling",
+        "isOverhead": true
+      },
+      {
+        "type": "52-Week High (Major Overhead Ceiling)",
+        "price": 4438.95,
+        "distancePct": 28.67,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "52-Week High overhead supply barrier",
+        "isOverhead": true
+      }
+    ],
+    "pivots": [
+      {
+        "index": 2,
+        "date": "2026-09-21",
+        "price": 3533.748586803577,
+        "type": "HIGH",
+        "volume": 1943109,
+        "volVsAvg": 1.22,
+        "ageDays": 2
+      },
+      {
+        "index": 22,
+        "date": "2026-09-01",
+        "price": 4034.735837752757,
+        "type": "HIGH",
+        "volume": 1263749,
+        "volVsAvg": 0.8,
+        "ageDays": 22
+      },
+      {
+        "index": 40,
+        "date": "2026-08-14",
+        "price": 3385.7890211018507,
+        "type": "LOW",
+        "volume": 1891718,
+        "volVsAvg": 1.19,
+        "ageDays": 40
+      },
+      {
+        "index": 63,
+        "date": "2026-07-22",
+        "price": 3968.0033271950065,
+        "type": "LOW",
+        "volume": 1232831,
+        "volVsAvg": 0.78,
+        "ageDays": 63
+      },
+      {
+        "index": 64,
+        "date": "2026-07-21",
+        "price": 4068.072992687651,
+        "type": "HIGH",
+        "volume": 1487810,
+        "volVsAvg": 0.94,
+        "ageDays": 64
+      },
+      {
+        "index": 82,
+        "date": "2026-07-03",
+        "price": 3385.8206328615515,
+        "type": "LOW",
+        "volume": 1930827,
+        "volVsAvg": 1.22,
+        "ageDays": 82
+      },
+      {
+        "index": 85,
+        "date": "2026-06-30",
+        "price": 3380.9696458509716,
+        "type": "LOW",
+        "volume": 1375645,
+        "volVsAvg": 0.87,
+        "ageDays": 85
+      },
+      {
+        "index": 103,
+        "date": "2026-06-12",
+        "price": 4105.780501180598,
+        "type": "HIGH",
+        "volume": 1471837,
+        "volVsAvg": 0.93,
+        "ageDays": 103
+      },
+      {
+        "index": 106,
+        "date": "2026-06-09",
+        "price": 4117.826751631058,
+        "type": "HIGH",
+        "volume": 1914382,
+        "volVsAvg": 1.21,
+        "ageDays": 106
+      },
+      {
+        "index": 126,
+        "date": "2026-05-20",
+        "price": 3568.4146719697355,
+        "type": "LOW",
+        "volume": 1656671,
+        "volVsAvg": 1.04,
+        "ageDays": 126
+      },
+      {
+        "index": 147,
+        "date": "2026-04-29",
+        "price": 4438.951298363775,
+        "type": "HIGH",
+        "volume": 1220672,
+        "volVsAvg": 0.77,
+        "ageDays": 147
+      },
+      {
+        "index": 168,
+        "date": "2026-04-08",
+        "price": 3797.2536599218593,
+        "type": "LOW",
+        "volume": 1649300,
+        "volVsAvg": 1.04,
+        "ageDays": 168
+      },
+      {
+        "index": 188,
+        "date": "2026-03-19",
+        "price": 4318.304756297487,
+        "type": "LOW",
+        "volume": 1389477,
+        "volVsAvg": 0.88,
+        "ageDays": 188
+      },
+      {
+        "index": 189,
+        "date": "2026-03-18",
+        "price": 4394.665871300466,
+        "type": "HIGH",
+        "volume": 1811591,
+        "volVsAvg": 1.14,
+        "ageDays": 189
+      },
+      {
+        "index": 206,
+        "date": "2026-03-01",
+        "price": 3761.4469770717815,
+        "type": "LOW",
+        "volume": 1377948,
+        "volVsAvg": 0.87,
+        "ageDays": 206
+      },
+      {
+        "index": 211,
+        "date": "2026-02-24",
+        "price": 3733.1168831548016,
+        "type": "LOW",
+        "volume": 1448868,
+        "volVsAvg": 0.91,
+        "ageDays": 211
+      },
+      {
+        "index": 230,
+        "date": "2026-02-05",
+        "price": 4401.08557261642,
+        "type": "HIGH",
+        "volume": 1202131,
+        "volVsAvg": 0.76,
+        "ageDays": 230
+      },
+      {
+        "index": 250,
+        "date": "2026-01-16",
+        "price": 3697.0863826535387,
+        "type": "LOW",
+        "volume": 1839608,
+        "volVsAvg": 1.16,
+        "ageDays": 250
+      }
+    ]
+  },
+  {
+    "symbol": "TATAMOTORS",
+    "companyName": "Tata Motors Limited",
+    "sector": "INDUSTRIAL",
+    "instrumentType": "EQUITY",
+    "dataSource": "FALLBACK",
+    "ltp": 965,
+    "atr14": 20.98,
+    "sma50": 1016.32,
+    "sma100": 1030.08,
+    "ema200": 1101.55,
+    "high52W": 1394.14,
+    "low52W": 931.13,
+    "swingLow10": 957.44,
+    "swingHigh10": 1035.95,
+    "swingLow20": 957.44,
+    "swingHigh20": 1129.12,
+    "supportCandidates": [
+      {
+        "type": "10-Day Swing Low",
+        "price": 957.44,
+        "distancePct": -0.78,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Most recent short-term price floor",
+        "isOverhead": false
+      },
+      {
+        "type": "Repeated Reaction Zone",
+        "price": 944.06,
+        "zoneLow": 931.13,
+        "zoneHigh": 950.98,
+        "distancePct": -2.17,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "3 historical pivot bounces in zone ₹931.13 - ₹950.98",
+        "isOverhead": false
+      },
+      {
+        "type": "52-Week Low Floor",
+        "price": 931.13,
+        "distancePct": -3.51,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Absolute multi-month cyclical floor over 250 bars",
+        "isOverhead": false
+      }
+    ],
+    "resistanceCandidates": [
+      {
+        "type": "50-DMA (Overhead Resistance)",
+        "price": 1016.32,
+        "distancePct": 5.32,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Price below 50-DMA; serves as overhead intermediate resistance",
+        "isOverhead": true
+      },
+      {
+        "type": "100-DMA (Overhead Resistance)",
+        "price": 1030.08,
+        "distancePct": 6.74,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Price below 100-DMA; serves as intermediate overhead resistance",
+        "isOverhead": true
+      },
+      {
+        "type": "200-EMA (Major Overhead Ceiling)",
+        "price": 1101.55,
+        "distancePct": 14.15,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Price below 200-EMA; major macro trendline ceiling",
+        "isOverhead": true
+      },
+      {
+        "type": "Overhead Reaction Cluster",
+        "price": 1156.78,
+        "zoneLow": 1151.01,
+        "zoneHigh": 1160.55,
+        "distancePct": 19.87,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "4 historical pivot rejections in zone ₹1151.01 - ₹1160.55",
+        "isOverhead": true
+      },
+      {
+        "type": "52-Week High (Major Overhead Ceiling)",
+        "price": 1394.14,
+        "distancePct": 44.47,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "52-Week High overhead supply barrier",
+        "isOverhead": true
+      }
+    ],
+    "pivots": [
+      {
+        "index": 18,
+        "date": "2026-09-05",
+        "price": 1129.1221110752447,
+        "type": "HIGH",
+        "volume": 1870859,
+        "volVsAvg": 1.18,
+        "ageDays": 18
+      },
+      {
+        "index": 39,
+        "date": "2026-08-15",
+        "price": 964.3328285017219,
+        "type": "HIGH",
+        "volume": 1807959,
+        "volVsAvg": 1.14,
+        "ageDays": 39
+      },
+      {
+        "index": 41,
+        "date": "2026-08-13",
+        "price": 931.1257209945147,
+        "type": "LOW",
+        "volume": 1659206,
+        "volVsAvg": 1.04,
+        "ageDays": 41
+      },
+      {
+        "index": 64,
+        "date": "2026-07-21",
+        "price": 1113.2704083181163,
+        "type": "HIGH",
+        "volume": 1235887,
+        "volVsAvg": 0.78,
+        "ageDays": 64
+      },
+      {
+        "index": 67,
+        "date": "2026-07-18",
+        "price": 1113.3515093924702,
+        "type": "HIGH",
+        "volume": 1594871,
+        "volVsAvg": 1,
+        "ageDays": 67
+      },
+      {
+        "index": 83,
+        "date": "2026-07-02",
+        "price": 950.0650858181899,
+        "type": "LOW",
+        "volume": 1888553,
+        "volVsAvg": 1.19,
+        "ageDays": 83
+      },
+      {
+        "index": 86,
+        "date": "2026-06-29",
+        "price": 950.984640560246,
+        "type": "LOW",
+        "volume": 1620784,
+        "volVsAvg": 1.02,
+        "ageDays": 86
+      },
+      {
+        "index": 105,
+        "date": "2026-06-10",
+        "price": 1181.0297750002549,
+        "type": "HIGH",
+        "volume": 1371813,
+        "volVsAvg": 0.86,
+        "ageDays": 105
+      },
+      {
+        "index": 126,
+        "date": "2026-05-20",
+        "price": 1004.8598558590014,
+        "type": "LOW",
+        "volume": 1203314,
+        "volVsAvg": 0.76,
+        "ageDays": 126
+      },
+      {
+        "index": 149,
+        "date": "2026-04-27",
+        "price": 1271.691790359178,
+        "type": "HIGH",
+        "volume": 1514438,
+        "volVsAvg": 0.95,
+        "ageDays": 149
+      },
+      {
+        "index": 166,
+        "date": "2026-04-10",
+        "price": 1076.381402789283,
+        "type": "LOW",
+        "volume": 1774004,
+        "volVsAvg": 1.12,
+        "ageDays": 166
+      },
+      {
+        "index": 190,
+        "date": "2026-03-17",
+        "price": 1345.250589571066,
+        "type": "HIGH",
+        "volume": 1483423,
+        "volVsAvg": 0.93,
+        "ageDays": 190
+      },
+      {
+        "index": 205,
+        "date": "2026-03-02",
+        "price": 1159.9861060180851,
+        "type": "LOW",
+        "volume": 1210696,
+        "volVsAvg": 0.76,
+        "ageDays": 205
+      },
+      {
+        "index": 209,
+        "date": "2026-02-26",
+        "price": 1151.0135874379491,
+        "type": "LOW",
+        "volume": 1934027,
+        "volVsAvg": 1.22,
+        "ageDays": 209
+      },
+      {
+        "index": 212,
+        "date": "2026-02-23",
+        "price": 1155.5903034499036,
+        "type": "LOW",
+        "volume": 1881530,
+        "volVsAvg": 1.18,
+        "ageDays": 212
+      },
+      {
+        "index": 229,
+        "date": "2026-02-06",
+        "price": 1394.1447145906911,
+        "type": "HIGH",
+        "volume": 1407780,
+        "volVsAvg": 0.89,
+        "ageDays": 229
+      },
+      {
+        "index": 233,
+        "date": "2026-02-02",
+        "price": 1350.0243627682296,
+        "type": "LOW",
+        "volume": 1697046,
+        "volVsAvg": 1.07,
+        "ageDays": 233
+      },
+      {
+        "index": 236,
+        "date": "2026-01-30",
+        "price": 1370.0422037929889,
+        "type": "HIGH",
+        "volume": 1924692,
+        "volVsAvg": 1.21,
+        "ageDays": 236
+      },
+      {
+        "index": 255,
+        "date": "2026-01-11",
+        "price": 1160.5485662548692,
+        "type": "LOW",
+        "volume": 1508022,
+        "volVsAvg": 0.95,
+        "ageDays": 255
+      }
+    ]
+  },
+  {
+    "symbol": "INFY",
+    "companyName": "Infosys Limited",
+    "sector": "INDUSTRIAL",
+    "instrumentType": "EQUITY",
+    "dataSource": "FALLBACK",
+    "ltp": 1895,
+    "atr14": 45.65,
+    "sma50": 2113.42,
+    "sma100": 2179.16,
+    "ema200": 2251.16,
+    "high52W": 2680.87,
+    "low52W": 1889.85,
+    "swingLow10": 1889.85,
+    "swingHigh10": 2091.39,
+    "swingLow20": 1889.85,
+    "swingHigh20": 2303.99,
+    "supportCandidates": [
+      {
+        "type": "10-Day Swing Low",
+        "price": 1889.85,
+        "distancePct": -0.27,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Most recent short-term price floor",
+        "isOverhead": false
+      },
+      {
+        "type": "52-Week Low Floor",
+        "price": 1889.85,
+        "distancePct": -0.27,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Absolute multi-month cyclical floor over 250 bars",
+        "isOverhead": false
+      }
+    ],
+    "resistanceCandidates": [
+      {
+        "type": "Overhead Reaction Cluster",
+        "price": 2059.6,
+        "zoneLow": 2049.27,
+        "zoneHigh": 2069.93,
+        "distancePct": 8.69,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "2 historical pivot rejections in zone ₹2049.27 - ₹2069.93",
+        "isOverhead": true
+      },
+      {
+        "type": "50-DMA (Overhead Resistance)",
+        "price": 2113.42,
+        "distancePct": 11.53,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Price below 50-DMA; serves as overhead intermediate resistance",
+        "isOverhead": true
+      },
+      {
+        "type": "Overhead Reaction Cluster",
+        "price": 2162.14,
+        "zoneLow": 2160.19,
+        "zoneHigh": 2164.09,
+        "distancePct": 14.1,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "2 historical pivot rejections in zone ₹2160.19 - ₹2164.09",
+        "isOverhead": true
+      },
+      {
+        "type": "100-DMA (Overhead Resistance)",
+        "price": 2179.16,
+        "distancePct": 15,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Price below 100-DMA; serves as intermediate overhead resistance",
+        "isOverhead": true
+      },
+      {
+        "type": "Overhead Reaction Cluster",
+        "price": 2242.35,
+        "zoneLow": 2220.51,
+        "zoneHigh": 2264.2,
+        "distancePct": 18.33,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "2 historical pivot rejections in zone ₹2220.51 - ₹2264.2",
+        "isOverhead": true
+      },
+      {
+        "type": "200-EMA (Major Overhead Ceiling)",
+        "price": 2251.16,
+        "distancePct": 18.79,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Price below 200-EMA; major macro trendline ceiling",
+        "isOverhead": true
+      },
+      {
+        "type": "52-Week High (Major Overhead Ceiling)",
+        "price": 2680.87,
+        "distancePct": 41.47,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "52-Week High overhead supply barrier",
+        "isOverhead": true
+      }
+    ],
+    "pivots": [
+      {
+        "index": 21,
+        "date": "2026-09-02",
+        "price": 2320.706513923858,
+        "type": "HIGH",
+        "volume": 1460483,
+        "volVsAvg": 0.91,
+        "ageDays": 21
+      },
+      {
+        "index": 39,
+        "date": "2026-08-15",
+        "price": 1982.9398385216177,
+        "type": "LOW",
+        "volume": 1615296,
+        "volVsAvg": 1.01,
+        "ageDays": 39
+      },
+      {
+        "index": 62,
+        "date": "2026-07-23",
+        "price": 2452.5522714811764,
+        "type": "HIGH",
+        "volume": 1518042,
+        "volVsAvg": 0.95,
+        "ageDays": 62
+      },
+      {
+        "index": 83,
+        "date": "2026-07-02",
+        "price": 2049.2667905383,
+        "type": "LOW",
+        "volume": 1646265,
+        "volVsAvg": 1.03,
+        "ageDays": 83
+      },
+      {
+        "index": 100,
+        "date": "2026-06-15",
+        "price": 2414.8949955880066,
+        "type": "HIGH",
+        "volume": 1733342,
+        "volVsAvg": 1.09,
+        "ageDays": 100
+      },
+      {
+        "index": 107,
+        "date": "2026-06-08",
+        "price": 2455.2912423555363,
+        "type": "HIGH",
+        "volume": 1421961,
+        "volVsAvg": 0.89,
+        "ageDays": 107
+      },
+      {
+        "index": 127,
+        "date": "2026-05-19",
+        "price": 2069.9283845419973,
+        "type": "LOW",
+        "volume": 1432651,
+        "volVsAvg": 0.9,
+        "ageDays": 127
+      },
+      {
+        "index": 147,
+        "date": "2026-04-29",
+        "price": 2539.2146804266313,
+        "type": "HIGH",
+        "volume": 1766230,
+        "volVsAvg": 1.11,
+        "ageDays": 147
+      },
+      {
+        "index": 151,
+        "date": "2026-04-25",
+        "price": 2534.5410242923845,
+        "type": "HIGH",
+        "volume": 1690836,
+        "volVsAvg": 1.06,
+        "ageDays": 151
+      },
+      {
+        "index": 163,
+        "date": "2026-04-13",
+        "price": 2164.09127850681,
+        "type": "LOW",
+        "volume": 1776727,
+        "volVsAvg": 1.11,
+        "ageDays": 163
+      },
+      {
+        "index": 165,
+        "date": "2026-04-11",
+        "price": 2202.396606551302,
+        "type": "HIGH",
+        "volume": 1224552,
+        "volVsAvg": 0.77,
+        "ageDays": 165
+      },
+      {
+        "index": 167,
+        "date": "2026-04-09",
+        "price": 2160.192860895585,
+        "type": "LOW",
+        "volume": 1946602,
+        "volVsAvg": 1.22,
+        "ageDays": 167
+      },
+      {
+        "index": 169,
+        "date": "2026-04-07",
+        "price": 2207.471300002665,
+        "type": "HIGH",
+        "volume": 1488938,
+        "volVsAvg": 0.93,
+        "ageDays": 169
+      },
+      {
+        "index": 188,
+        "date": "2026-03-19",
+        "price": 2617.5983345391082,
+        "type": "HIGH",
+        "volume": 1686442,
+        "volVsAvg": 1.06,
+        "ageDays": 188
+      },
+      {
+        "index": 208,
+        "date": "2026-02-27",
+        "price": 2220.5073787468637,
+        "type": "LOW",
+        "volume": 1492303,
+        "volVsAvg": 0.93,
+        "ageDays": 208
+      },
+      {
+        "index": 230,
+        "date": "2026-02-05",
+        "price": 2680.8683683435997,
+        "type": "HIGH",
+        "volume": 1922076,
+        "volVsAvg": 1.2,
+        "ageDays": 230
+      },
+      {
+        "index": 251,
+        "date": "2026-01-15",
+        "price": 2314.792759879492,
+        "type": "HIGH",
+        "volume": 1256660,
+        "volVsAvg": 0.79,
+        "ageDays": 251
+      },
+      {
+        "index": 252,
+        "date": "2026-01-14",
+        "price": 2264.2007988885102,
+        "type": "LOW",
+        "volume": 1726917,
+        "volVsAvg": 1.08,
+        "ageDays": 252
+      }
+    ]
+  },
+  {
+    "symbol": "GOLDBEES",
+    "companyName": "Nippon India ETF Gold BeES",
+    "sector": "ETF",
+    "instrumentType": "ETF",
+    "dataSource": "OFFLINE_MOCK",
+    "ltp": 125,
+    "atr14": 3.36,
+    "sma50": 138.87,
+    "sma100": 143.71,
+    "ema200": 149.93,
+    "high52W": 185.94,
+    "low52W": 123.9,
+    "swingLow10": 123.9,
+    "swingHigh10": 139.45,
+    "swingLow20": 123.9,
+    "swingHigh20": 154.97,
+    "supportCandidates": [
+      {
+        "type": "10-Day Swing Low",
+        "price": 123.9,
+        "distancePct": -0.88,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Most recent short-term price floor",
+        "isOverhead": false
+      },
+      {
+        "type": "52-Week Low Floor",
+        "price": 123.9,
+        "distancePct": -0.88,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Absolute multi-month cyclical floor over 250 bars",
+        "isOverhead": false
+      }
+    ],
+    "resistanceCandidates": [
+      {
+        "type": "Overhead Reaction Cluster",
+        "price": 138.82,
+        "zoneLow": 137.57,
+        "zoneHigh": 140.58,
+        "distancePct": 11.06,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "3 historical pivot rejections in zone ₹137.57 - ₹140.58",
+        "isOverhead": true
+      },
+      {
+        "type": "50-DMA (Overhead Resistance)",
+        "price": 138.87,
+        "distancePct": 11.1,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Price below 50-DMA; serves as overhead intermediate resistance",
+        "isOverhead": true
+      },
+      {
+        "type": "100-DMA (Overhead Resistance)",
+        "price": 143.71,
+        "distancePct": 14.96,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Price below 100-DMA; serves as intermediate overhead resistance",
+        "isOverhead": true
+      },
+      {
+        "type": "Overhead Reaction Cluster",
+        "price": 147.54,
+        "zoneLow": 147.26,
+        "zoneHigh": 147.81,
+        "distancePct": 18.03,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "2 historical pivot rejections in zone ₹147.26 - ₹147.81",
+        "isOverhead": true
+      },
+      {
+        "type": "200-EMA (Major Overhead Ceiling)",
+        "price": 149.93,
+        "distancePct": 19.94,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Price below 200-EMA; major macro trendline ceiling",
+        "isOverhead": true
+      },
+      {
+        "type": "52-Week High (Major Overhead Ceiling)",
+        "price": 185.94,
+        "distancePct": 48.76,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "52-Week High overhead supply barrier",
+        "isOverhead": true
+      }
+    ],
+    "pivots": [
+      {
+        "index": 20,
+        "date": "2026-09-03",
+        "price": 156.37894017115022,
+        "type": "HIGH",
+        "volume": 7359029,
+        "volVsAvg": 1.03,
+        "ageDays": 20
+      },
+      {
+        "index": 41,
+        "date": "2026-08-13",
+        "price": 126.93681742356652,
+        "type": "LOW",
+        "volume": 8345065,
+        "volVsAvg": 1.17,
+        "ageDays": 41
+      },
+      {
+        "index": 64,
+        "date": "2026-07-21",
+        "price": 164.99332919768327,
+        "type": "HIGH",
+        "volume": 6202132,
+        "volVsAvg": 0.87,
+        "ageDays": 64
+      },
+      {
+        "index": 85,
+        "date": "2026-06-30",
+        "price": 132.7257821238095,
+        "type": "LOW",
+        "volume": 7522725,
+        "volVsAvg": 1.06,
+        "ageDays": 85
+      },
+      {
+        "index": 107,
+        "date": "2026-06-08",
+        "price": 165.98571542050374,
+        "type": "HIGH",
+        "volume": 6223158,
+        "volVsAvg": 0.87,
+        "ageDays": 107
+      },
+      {
+        "index": 123,
+        "date": "2026-05-23",
+        "price": 138.32247241022674,
+        "type": "LOW",
+        "volume": 7003520,
+        "volVsAvg": 0.98,
+        "ageDays": 123
+      },
+      {
+        "index": 126,
+        "date": "2026-05-20",
+        "price": 137.5705718199682,
+        "type": "LOW",
+        "volume": 7358002,
+        "volVsAvg": 1.03,
+        "ageDays": 126
+      },
+      {
+        "index": 148,
+        "date": "2026-04-28",
+        "price": 171.09884719719173,
+        "type": "HIGH",
+        "volume": 6084381,
+        "volVsAvg": 0.85,
+        "ageDays": 148
+      },
+      {
+        "index": 167,
+        "date": "2026-04-09",
+        "price": 140.57647068360447,
+        "type": "LOW",
+        "volume": 7610823,
+        "volVsAvg": 1.07,
+        "ageDays": 167
+      },
+      {
+        "index": 189,
+        "date": "2026-03-18",
+        "price": 176.70790637620016,
+        "type": "HIGH",
+        "volume": 5703284,
+        "volVsAvg": 0.8,
+        "ageDays": 189
+      },
+      {
+        "index": 208,
+        "date": "2026-02-27",
+        "price": 147.8116027325618,
+        "type": "LOW",
+        "volume": 7587425,
+        "volVsAvg": 1.07,
+        "ageDays": 208
+      },
+      {
+        "index": 211,
+        "date": "2026-02-24",
+        "price": 147.2588916927028,
+        "type": "LOW",
+        "volume": 8322107,
+        "volVsAvg": 1.17,
+        "ageDays": 211
+      },
+      {
+        "index": 230,
+        "date": "2026-02-05",
+        "price": 185.94384158200708,
+        "type": "HIGH",
+        "volume": 7079582,
+        "volVsAvg": 0.99,
+        "ageDays": 230
+      },
+      {
+        "index": 250,
+        "date": "2026-01-16",
+        "price": 156.0377949319211,
+        "type": "LOW",
+        "volume": 7371905,
+        "volVsAvg": 1.03,
+        "ageDays": 250
+      }
+    ]
+  },
+  {
+    "symbol": "ITCHOTELS",
+    "companyName": "ITC Hotels Limited",
+    "sector": "INDUSTRIAL",
+    "instrumentType": "EQUITY",
+    "dataSource": "FALLBACK",
+    "ltp": 163.81,
+    "atr14": 3.6,
+    "sma50": 180.76,
+    "sma100": 191.3,
+    "ema200": 197.89,
+    "high52W": 240.23,
+    "low52W": 162.53,
+    "swingLow10": 162.53,
+    "swingHigh10": 175.13,
+    "swingLow20": 162.53,
+    "swingHigh20": 195.05,
+    "supportCandidates": [
+      {
+        "type": "10-Day Swing Low",
+        "price": 162.53,
+        "distancePct": -0.78,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Most recent short-term price floor",
+        "isOverhead": false
+      },
+      {
+        "type": "52-Week Low Floor",
+        "price": 162.53,
+        "distancePct": -0.78,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Absolute multi-month cyclical floor over 250 bars",
+        "isOverhead": false
+      }
+    ],
+    "resistanceCandidates": [
+      {
+        "type": "50-DMA (Overhead Resistance)",
+        "price": 180.76,
+        "distancePct": 10.35,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Price below 50-DMA; serves as overhead intermediate resistance",
+        "isOverhead": true
+      },
+      {
+        "type": "100-DMA (Overhead Resistance)",
+        "price": 191.3,
+        "distancePct": 16.78,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Price below 100-DMA; serves as intermediate overhead resistance",
+        "isOverhead": true
+      },
+      {
+        "type": "Overhead Reaction Cluster",
+        "price": 194.68,
+        "zoneLow": 193.72,
+        "zoneHigh": 195.64,
+        "distancePct": 18.85,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "2 historical pivot rejections in zone ₹193.72 - ₹195.64",
+        "isOverhead": true
+      },
+      {
+        "type": "200-EMA (Major Overhead Ceiling)",
+        "price": 197.89,
+        "distancePct": 20.8,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Price below 200-EMA; major macro trendline ceiling",
+        "isOverhead": true
+      },
+      {
+        "type": "Overhead Reaction Cluster",
+        "price": 224.99,
+        "zoneLow": 223.46,
+        "zoneHigh": 226.53,
+        "distancePct": 37.35,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "2 historical pivot rejections in zone ₹223.46 - ₹226.53",
+        "isOverhead": true
+      },
+      {
+        "type": "52-Week High (Major Overhead Ceiling)",
+        "price": 240.23,
+        "distancePct": 46.65,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "52-Week High overhead supply barrier",
+        "isOverhead": true
+      }
+    ],
+    "pivots": [
+      {
+        "index": 19,
+        "date": "2026-09-04",
+        "price": 195.04782340028856,
+        "type": "HIGH",
+        "volume": 1662975,
+        "volVsAvg": 1.05,
+        "ageDays": 19
+      },
+      {
+        "index": 23,
+        "date": "2026-08-31",
+        "price": 194.90573696483082,
+        "type": "HIGH",
+        "volume": 1946622,
+        "volVsAvg": 1.23,
+        "ageDays": 23
+      },
+      {
+        "index": 42,
+        "date": "2026-08-12",
+        "price": 171.19612537926022,
+        "type": "LOW",
+        "volume": 1860575,
+        "volVsAvg": 1.17,
+        "ageDays": 42
+      },
+      {
+        "index": 63,
+        "date": "2026-07-22",
+        "price": 219.1096939798307,
+        "type": "HIGH",
+        "volume": 1255225,
+        "volVsAvg": 0.79,
+        "ageDays": 63
+      },
+      {
+        "index": 65,
+        "date": "2026-07-20",
+        "price": 213.4542736727747,
+        "type": "LOW",
+        "volume": 1330534,
+        "volVsAvg": 0.84,
+        "ageDays": 65
+      },
+      {
+        "index": 67,
+        "date": "2026-07-18",
+        "price": 216.72646442932117,
+        "type": "HIGH",
+        "volume": 1287123,
+        "volVsAvg": 0.81,
+        "ageDays": 67
+      },
+      {
+        "index": 85,
+        "date": "2026-06-30",
+        "price": 183.97889919585973,
+        "type": "LOW",
+        "volume": 1938436,
+        "volVsAvg": 1.22,
+        "ageDays": 85
+      },
+      {
+        "index": 103,
+        "date": "2026-06-12",
+        "price": 218.90571760033006,
+        "type": "HIGH",
+        "volume": 1648315,
+        "volVsAvg": 1.04,
+        "ageDays": 103
+      },
+      {
+        "index": 108,
+        "date": "2026-06-07",
+        "price": 215.70624242070434,
+        "type": "HIGH",
+        "volume": 1597540,
+        "volVsAvg": 1.01,
+        "ageDays": 108
+      },
+      {
+        "index": 125,
+        "date": "2026-05-21",
+        "price": 188.82867884932494,
+        "type": "LOW",
+        "volume": 1467142,
+        "volVsAvg": 0.93,
+        "ageDays": 125
+      },
+      {
+        "index": 144,
+        "date": "2026-05-02",
+        "price": 226.3360046477583,
+        "type": "HIGH",
+        "volume": 1859070,
+        "volVsAvg": 1.17,
+        "ageDays": 144
+      },
+      {
+        "index": 146,
+        "date": "2026-04-30",
+        "price": 223.45697346365773,
+        "type": "LOW",
+        "volume": 1360358,
+        "volVsAvg": 0.86,
+        "ageDays": 146
+      },
+      {
+        "index": 148,
+        "date": "2026-04-28",
+        "price": 225.76765721743436,
+        "type": "HIGH",
+        "volume": 1707160,
+        "volVsAvg": 1.08,
+        "ageDays": 148
+      },
+      {
+        "index": 165,
+        "date": "2026-04-11",
+        "price": 193.71801612324268,
+        "type": "LOW",
+        "volume": 1231757,
+        "volVsAvg": 0.78,
+        "ageDays": 165
+      },
+      {
+        "index": 189,
+        "date": "2026-03-18",
+        "price": 232.85162273059206,
+        "type": "HIGH",
+        "volume": 1444616,
+        "volVsAvg": 0.91,
+        "ageDays": 189
+      },
+      {
+        "index": 193,
+        "date": "2026-03-14",
+        "price": 226.52924430345846,
+        "type": "LOW",
+        "volume": 1447311,
+        "volVsAvg": 0.91,
+        "ageDays": 193
+      },
+      {
+        "index": 209,
+        "date": "2026-02-26",
+        "price": 200.75377704000692,
+        "type": "LOW",
+        "volume": 1772683,
+        "volVsAvg": 1.12,
+        "ageDays": 209
+      },
+      {
+        "index": 230,
+        "date": "2026-02-05",
+        "price": 240.23186341381785,
+        "type": "HIGH",
+        "volume": 1627481,
+        "volVsAvg": 1.03,
+        "ageDays": 230
+      },
+      {
+        "index": 248,
+        "date": "2026-01-18",
+        "price": 203.84135721670842,
+        "type": "HIGH",
+        "volume": 1665005,
+        "volVsAvg": 1.05,
+        "ageDays": 248
+      },
+      {
+        "index": 253,
+        "date": "2026-01-13",
+        "price": 195.6397173634263,
+        "type": "LOW",
+        "volume": 1546583,
+        "volVsAvg": 0.98,
+        "ageDays": 253
+      }
+    ]
+  },
+  {
+    "symbol": "ITBEES",
+    "companyName": "Nippon India ETF Nifty IT",
+    "sector": "ETF",
+    "instrumentType": "ETF",
+    "dataSource": "FALLBACK",
+    "ltp": 40.23,
+    "atr14": 0.9,
+    "sma50": 43.65,
+    "sma100": 44.6,
+    "ema200": 46.07,
+    "high52W": 55.25,
+    "low52W": 39.81,
+    "swingLow10": 39.81,
+    "swingHigh10": 43.67,
+    "swingLow20": 39.81,
+    "swingHigh20": 47.99,
+    "supportCandidates": [
+      {
+        "type": "10-Day Swing Low",
+        "price": 39.81,
+        "distancePct": -1.03,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Most recent short-term price floor",
+        "isOverhead": false
+      },
+      {
+        "type": "52-Week Low Floor",
+        "price": 39.81,
+        "distancePct": -1.03,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Absolute multi-month cyclical floor over 250 bars",
+        "isOverhead": false
+      }
+    ],
+    "resistanceCandidates": [
+      {
+        "type": "Overhead Reaction Cluster",
+        "price": 41.04,
+        "zoneLow": 40.99,
+        "zoneHigh": 41.09,
+        "distancePct": 2.01,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "2 historical pivot rejections in zone ₹40.99 - ₹41.09",
+        "isOverhead": true
+      },
+      {
+        "type": "Overhead Reaction Cluster",
+        "price": 42.24,
+        "zoneLow": 42.02,
+        "zoneHigh": 42.46,
+        "distancePct": 5,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "2 historical pivot rejections in zone ₹42.02 - ₹42.46",
+        "isOverhead": true
+      },
+      {
+        "type": "Overhead Reaction Cluster",
+        "price": 43.45,
+        "zoneLow": 43.18,
+        "zoneHigh": 43.82,
+        "distancePct": 8,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "3 historical pivot rejections in zone ₹43.18 - ₹43.82",
+        "isOverhead": true
+      },
+      {
+        "type": "50-DMA (Overhead Resistance)",
+        "price": 43.65,
+        "distancePct": 8.49,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Price below 50-DMA; serves as overhead intermediate resistance",
+        "isOverhead": true
+      },
+      {
+        "type": "100-DMA (Overhead Resistance)",
+        "price": 44.6,
+        "distancePct": 10.85,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Price below 100-DMA; serves as intermediate overhead resistance",
+        "isOverhead": true
+      },
+      {
+        "type": "200-EMA (Major Overhead Ceiling)",
+        "price": 46.07,
+        "distancePct": 14.51,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "Price below 200-EMA; major macro trendline ceiling",
+        "isOverhead": true
+      },
+      {
+        "type": "52-Week High (Major Overhead Ceiling)",
+        "price": 55.25,
+        "distancePct": 37.33,
+        "evidence": "STRONG EVIDENCE",
+        "notes": "52-Week High overhead supply barrier",
+        "isOverhead": true
+      }
+    ],
+    "pivots": [
+      {
+        "index": 19,
+        "date": "2026-09-04",
+        "price": 47.987862796388924,
+        "type": "HIGH",
+        "volume": 1218098,
+        "volVsAvg": 0.77,
+        "ageDays": 19
+      },
+      {
+        "index": 38,
+        "date": "2026-08-16",
+        "price": 40.98794267435022,
+        "type": "LOW",
+        "volume": 1935270,
+        "volVsAvg": 1.23,
+        "ageDays": 38
+      },
+      {
+        "index": 43,
+        "date": "2026-08-11",
+        "price": 41.08577488060338,
+        "type": "LOW",
+        "volume": 1930793,
+        "volVsAvg": 1.22,
+        "ageDays": 43
+      },
+      {
+        "index": 59,
+        "date": "2026-07-26",
+        "price": 48.53943958868779,
+        "type": "HIGH",
+        "volume": 1258229,
+        "volVsAvg": 0.8,
+        "ageDays": 59
+      },
+      {
+        "index": 63,
+        "date": "2026-07-22",
+        "price": 49.11557253566549,
+        "type": "HIGH",
+        "volume": 1726722,
+        "volVsAvg": 1.1,
+        "ageDays": 63
+      },
+      {
+        "index": 84,
+        "date": "2026-07-01",
+        "price": 42.02440172274506,
+        "type": "LOW",
+        "volume": 1224341,
+        "volVsAvg": 0.78,
+        "ageDays": 84
+      },
+      {
+        "index": 88,
+        "date": "2026-06-27",
+        "price": 42.4646022519084,
+        "type": "LOW",
+        "volume": 1209227,
+        "volVsAvg": 0.77,
+        "ageDays": 88
+      },
+      {
+        "index": 106,
+        "date": "2026-06-09",
+        "price": 50.98935261420218,
+        "type": "HIGH",
+        "volume": 1888678,
+        "volVsAvg": 1.2,
+        "ageDays": 106
+      },
+      {
+        "index": 122,
+        "date": "2026-05-24",
+        "price": 43.35383953552435,
+        "type": "LOW",
+        "volume": 1592437,
+        "volVsAvg": 1.01,
+        "ageDays": 122
+      },
+      {
+        "index": 126,
+        "date": "2026-05-20",
+        "price": 44.427983421223956,
+        "type": "HIGH",
+        "volume": 1518172,
+        "volVsAvg": 0.96,
+        "ageDays": 126
+      },
+      {
+        "index": 129,
+        "date": "2026-05-17",
+        "price": 43.8181460260129,
+        "type": "LOW",
+        "volume": 1921474,
+        "volVsAvg": 1.22,
+        "ageDays": 129
+      },
+      {
+        "index": 143,
+        "date": "2026-05-03",
+        "price": 51.53051380859306,
+        "type": "HIGH",
+        "volume": 1420322,
+        "volVsAvg": 0.9,
+        "ageDays": 143
+      },
+      {
+        "index": 167,
+        "date": "2026-04-09",
+        "price": 43.17848258892914,
+        "type": "LOW",
+        "volume": 1741792,
+        "volVsAvg": 1.1,
+        "ageDays": 167
+      },
+      {
+        "index": 190,
+        "date": "2026-03-17",
+        "price": 52.59187164164663,
+        "type": "HIGH",
+        "volume": 1913631,
+        "volVsAvg": 1.21,
+        "ageDays": 190
+      },
+      {
+        "index": 207,
+        "date": "2026-02-28",
+        "price": 45.112934899223376,
+        "type": "LOW",
+        "volume": 1568247,
+        "volVsAvg": 0.99,
+        "ageDays": 207
+      },
+      {
+        "index": 209,
+        "date": "2026-02-26",
+        "price": 46.13907226659583,
+        "type": "HIGH",
+        "volume": 1382282,
+        "volVsAvg": 0.88,
+        "ageDays": 209
+      },
+      {
+        "index": 229,
+        "date": "2026-02-06",
+        "price": 55.248450849301726,
+        "type": "HIGH",
+        "volume": 1693662,
+        "volVsAvg": 1.07,
+        "ageDays": 229
+      },
+      {
+        "index": 253,
+        "date": "2026-01-13",
+        "price": 46.070312128861595,
+        "type": "LOW",
+        "volume": 1248346,
+        "volVsAvg": 0.79,
+        "ageDays": 253
+      }
+    ]
+  }
+]
